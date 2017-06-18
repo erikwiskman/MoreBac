@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<SYSML SYSML_VERSION="1.7" CONTENTS="MATERIAL" SAVEDATE="1493551141" SYSTEMA_VERSION="4.8.0">
+    <DATA_STRUCTURE NAME="Material_file_V13.sysmtr" REFSET_ID="{5dc28e65-b482-4607-aabe-1410279da69b}">
+        <DATA_NODE TYPE="MATERIAL" REFOBJ_ID="2" NAME="Material database">
+            <DATA_NODE TYPE="MATERIALDATA" REFOBJ_ID="9" NAME="Aluminium 6082">
+                <NODE_ATTRIBUTE TYPE="MATERIAL_CATEG" NAME="MATERIAL_CATEG_Thermica_Phys_Prop_%P_Default">
+                    <PROP_CATEGORY ID="Phys_Prop" NAME="Physical properties">
+                        <ELEM TYPE="VALUE" ID="Conductivity" VALUE="170"/>
+                        <ELEM TYPE="VALUE" ID="Density" VALUE="2810"/>
+                        <ELEM TYPE="VALUE" ID="Specific_heat" VALUE="896"/>
+                    </PROP_CATEGORY>
+                </NODE_ATTRIBUTE>
+                <NODE_ATTRIBUTE TYPE="MATERIAL_CATEG" NAME="MATERIAL_CATEG_Thermica_Thermo_optical_IR_%P_Default">
+                    <PROP_CATEGORY ID="Thermo_optical_IR" NAME="Thermo-optical IR">
+                        <ELEM TYPE="VALUE" ID="Diffuse_TransE" VALUE="0"/>
+                        <ELEM TYPE="VALUE" ID="Direct_TransE" VALUE="0"/>
+                        <ELEM TYPE="VALUE" ID="Epsilon" VALUE="0.05"/>
+                        <ELEM TYPE="VALUE" ID="SpecE" VALUE="0"/>
+                    </PROP_CATEGORY>
+                </NODE_ATTRIBUTE>
+                <NODE_ATTRIBUTE TYPE="MATERIAL_CATEG" NAME="MATERIAL_CATEG_Thermica_Thermo_optical_UV_%P_Default">
+                    <PROP_CATEGORY ID="Thermo_optical_UV" NAME="Thermo-optical UV">
+                        <ELEM TYPE="VALUE" ID="Alpha" VALUE="0.15"/>
+                        <ELEM TYPE="VALUE" ID="Diffuse_TransA" VALUE="0"/>
+                        <ELEM TYPE="VALUE" ID="Direct_TransA" VALUE="0"/>
+                        <ELEM TYPE="VALUE" ID="SpecA" VALUE="0"/>
+                    </PROP_CATEGORY>
+                </NODE_ATTRIBUTE>
+            </DATA_NODE>
+            <DATA_NODE TYPE="MATERIALDATA" REFOBJ_ID="6" NAME="Copper">
+                <NODE_ATTRIBUTE TYPE="MATERIAL_CATEG" NAME="MATERIAL_CATEG_Thermica_Phys_Prop_%P_Default">
+                    <PROP_CATEGORY ID="Phys_Prop" NAME="Physical properties">
+                        <ELEM TYPE="VALUE" ID="Conductivity" VALUE="20.5"/>
+                        <ELEM TYPE="VALUE" ID="Density" VALUE="2223"/>
+                        <ELEM TYPE="VALUE" ID="Specific_heat" VALUE="589"/>
+                    </PROP_CATEGORY>
+                </NODE_ATTRIBUTE>
+                <NODE_ATTRIBUTE TYPE="MATERIAL_CATEG" NAME="MATERIAL_CATEG_Thermica_Thermo_optical_IR_%P_Default">
+                    <PROP_CATEGORY ID="Thermo_optical_IR" NAME="Thermo-optical IR">
+                        <ELEM TYPE="VALUE" ID="Diffuse_TransE" VALUE="0"/>
+                        <ELEM TYPE="VALUE" ID="Direct_TransE" VALUE="0"/>
+                        <ELEM TYPE="VALUE" ID="Epsilon" VALUE="0.8"/>
+                        <ELEM TYPE="VALUE" ID="SpecE" VALUE="0"/>
+                    </PROP_CATEGORY>
+                </NODE_ATTRIBUTE>
+                <NODE_ATTRIBUTE TYPE="MATERIAL_CATEG" NAME="MATERIAL_CATEG_Thermica_Thermo_optical_UV_%P_Default">
+                    <PROP_CATEGORY ID="Thermo_optical_UV" NAME="Thermo-optical UV">
+                        <ELEM TYPE="VALUE" ID="Alpha" VALUE="0.9"/>
+                        <ELEM TYPE="VALUE" ID="Diffuse_TransA" VALUE="0"/>
+                        <ELEM TYPE="VALUE" ID="Direct_TransA" VALUE="0"/>
+                        <ELEM TYPE="VALUE" ID="SpecA" VALUE="0"/>
+                    </PROP_CATEGORY>
+                </NODE_ATTRIBUTE>
+            </DATA_NODE>
+            <DATA_NODE TYPE="MATERIALDATA" REFOBJ_ID="31" NAME="PCBZ">
+                <NODE_ATTRIBUTE TYPE="MATERIAL_CATEG" NAME="MATERIAL_CATEG_Thermica_Thermo_optical_IR_%P_Default">
+                    <PROP_CATEGORY ID="Thermo_optical_IR" NAME="Thermo-optical IR">
+                        <ELEM TYPE="VALUE" ID="Diffuse_TransE" VALUE="0"/>
+                        <ELEM TYPE="VALUE" ID="Direct_TransE" VALUE="0"/>
+                        <ELEM TYPE="VALUE" ID="Epsilon" VALUE="0.8"/>
+                        <ELEM TYPE="VALUE" ID="SpecE" VALUE="0"/>
+                    </PROP_CATEGORY>
+                </NODE_ATTRIBUTE>
+                <NODE_ATTRIBUTE TYPE="MATERIAL_CATEG" NAME="MATERIAL_CATEG_Thermica_Thermo_optical_UV_%P_Default">
+                    <PROP_CATEGORY ID="Thermo_optical_UV" NAME="Thermo-optical UV">
+                        <ELEM TYPE="VALUE" ID="Alpha" VALUE="0.29"/>
+                        <ELEM TYPE="VALUE" ID="Diffuse_TransA" VALUE="0"/>
+                        <ELEM TYPE="VALUE" ID="Direct_TransA" VALUE="0"/>
+                        <ELEM TYPE="VALUE" ID="SpecA" VALUE="0"/>
+                    </PROP_CATEGORY>
+                </NODE_ATTRIBUTE>
+            </DATA_NODE>
+            <DATA_NODE TYPE="MATERIALDATA" REFOBJ_ID="49" NAME="Plastic">
+                <NODE_ATTRIBUTE TYPE="MATERIAL_CATEG" NAME="MATERIAL_CATEG_Thermica_Phys_Prop_%P_Default">
+                    <PROP_CATEGORY ID="Phys_Prop" NAME="Physical properties">
+                        <ELEM TYPE="VALUE" ID="Conductivity" VALUE="0.4"/>
+                        <ELEM TYPE="VALUE" ID="Density" VALUE="1030"/>
+                        <ELEM TYPE="VALUE" ID="Specific_heat" VALUE="2000"/>
+                    </PROP_CATEGORY>
+                </NODE_ATTRIBUTE>
+                <NODE_ATTRIBUTE TYPE="MATERIAL_CATEG" NAME="MATERIAL_CATEG_Thermica_Thermo_optical_IR_%P_Default">
+                    <PROP_CATEGORY ID="Thermo_optical_IR" NAME="Thermo-optical IR">
+                        <ELEM TYPE="VALUE" ID="Diffuse_TransE" VALUE="0"/>
+                        <ELEM TYPE="VALUE" ID="Direct_TransE" VALUE="0"/>
+                        <ELEM TYPE="VALUE" ID="Epsilon" VALUE="0.05"/>
+                        <ELEM TYPE="VALUE" ID="SpecE" VALUE="0"/>
+                    </PROP_CATEGORY>
+                </NODE_ATTRIBUTE>
+                <NODE_ATTRIBUTE TYPE="MATERIAL_CATEG" NAME="MATERIAL_CATEG_Thermica_Thermo_optical_UV_%P_Default">
+                    <PROP_CATEGORY ID="Thermo_optical_UV" NAME="Thermo-optical UV">
+                        <ELEM TYPE="VALUE" ID="Alpha" VALUE="0.15"/>
+                        <ELEM TYPE="VALUE" ID="Diffuse_TransA" VALUE="0"/>
+                        <ELEM TYPE="VALUE" ID="Direct_TransA" VALUE="0"/>
+                        <ELEM TYPE="VALUE" ID="SpecA" VALUE="0"/>
+                    </PROP_CATEGORY>
+                </NODE_ATTRIBUTE>
+            </DATA_NODE>
+            <NODE_ATTRIBUTE TYPE="PHASES" NAME="PHASES">
+                <ELEM DEFAULT="Default phase" TYPE="PHASES">
+                    <ELEM TYPE="STRING" NAME="Default phase" STR="Default"/>
+                </ELEM>
+            </NODE_ATTRIBUTE>
+        </DATA_NODE>
+    </DATA_STRUCTURE>
+</SYSML>

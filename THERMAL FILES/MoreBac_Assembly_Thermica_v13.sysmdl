@@ -1,0 +1,1085 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<SYSML SYSML_VERSION="1.7" CONTENTS="MODEL" SAVEDATE="1493589232" SYSTEMA_VERSION="4.8.0">
+    <DATA_STRUCTURE NAME="MoreBac_Assembly_Thermica_v13.sysmdl" REFSET_ID="{34be8d66-0d44-4950-8562-59bd399a6b0d}">
+        <DATA_NODE TYPE="MODEL" REFOBJ_ID="2" NAME="MoreBac_Assembly_Thermica">
+            <DATA_NODE TYPE="OBJECT" REFOBJ_ID="3" NAME="MOREBAC">
+                <DATA_NODE TYPE="OBJECT" REFOBJ_ID="126" NAME="Part 1">
+                    <DATA_NODE TYPE="OBJECT" REFOBJ_ID="47" NAME="Top frame">
+                        <DATA_NODE TYPE="SHAPE" REFOBJ_ID="45" NAME="Interactive Rectangle (4)">
+                            <NODE_ATTRIBUTE TYPE="SHAPE" NAME="SHAPE">
+                                <ELEM SHAPETYPE="RECTANGLE_3P" REVERSE_NORMAL="false" TYPE="SHAPE" NAME="Rectangle">
+                                    <ELEM X="-0.0520655959844589" Y="0.0480000004172325" Z="-0.0118427705019712" TYPE="POINT" NAME="Point 1"/>
+                                    <ELEM X="-0.0520655959844589" Y="-0.0480000004172325" Z="-0.0118427705019712" TYPE="POINT" NAME="Point 2"/>
+                                    <ELEM X="-0.0520712234491888" Y="-0.047988845542242" Z="0.00915722967768887" TYPE="POINT" NAME="Point 3"/>
+                                </ELEM>
+                            </NODE_ATTRIBUTE>
+                            <NODE_ATTRIBUTE TYPE="PROP_APPLI" NAME="Thermica">
+                                <CONTENER TYPE="SHELL" NAME="Bulk"/>
+                                <CONTENER TYPE="SHELL" NAME="Transverse"/>
+                                <CONTENER TYPE="SHELL" NAME="Coating">
+                                    <ELEM TYPE="STRING" ID="ActivityId" STR="BOTHFACE"/>
+                                </CONTENER>
+                                <CONTENER TYPE="SHELL" NAME="Miscellaneous"/>
+                                <CONTENER TYPE="SHELL" NAME="Enclosure"/>
+                            </NODE_ATTRIBUTE>
+                        </DATA_NODE>
+                        <DATA_NODE TYPE="SHAPE" REFOBJ_ID="43" NAME="Interactive Rectangle (2)">
+                            <NODE_ATTRIBUTE TYPE="PROP_APPLI" NAME="Thermica">
+                                <CONTENER TYPE="SHELL" NAME="Bulk"/>
+                                <CONTENER TYPE="SHELL" NAME="Transverse"/>
+                                <CONTENER TYPE="SHELL" NAME="Coating">
+                                    <ELEM TYPE="STRING" ID="ActivityId" STR="BOTHFACE"/>
+                                </CONTENER>
+                                <CONTENER TYPE="SHELL" NAME="Miscellaneous"/>
+                                <CONTENER TYPE="SHELL" NAME="Enclosure"/>
+                            </NODE_ATTRIBUTE>
+                            <NODE_ATTRIBUTE TYPE="SHAPE" NAME="SHAPE">
+                                <ELEM SHAPETYPE="RECTANGLE_3P" REVERSE_NORMAL="true" TYPE="SHAPE" NAME="Rectangle">
+                                    <ELEM X="0.0429344028234482" Y="-0.0480000004172325" Z="-0.0118427705019712" TYPE="POINT" NAME="Point 1"/>
+                                    <ELEM X="-0.0520655959844589" Y="-0.0480000004172325" Z="-0.0118427705019712" TYPE="POINT" NAME="Point 2"/>
+                                    <ELEM X="0.0429287753587183" Y="-0.0480000970015738" Z="0.00915722967768885" TYPE="POINT" NAME="Point 3"/>
+                                </ELEM>
+                            </NODE_ATTRIBUTE>
+                        </DATA_NODE>
+                        <DATA_NODE TYPE="SHAPE" REFOBJ_ID="42" NAME="Interactive Rectangle (1)">
+                            <NODE_ATTRIBUTE TYPE="SHAPE" NAME="SHAPE">
+                                <ELEM SHAPETYPE="RECTANGLE_3P" REVERSE_NORMAL="true" TYPE="SHAPE" NAME="Rectangle">
+                                    <ELEM X="-0.0520655959844589" Y="0.0480000004172325" Z="-0.0118427705019712" TYPE="POINT" NAME="Point 1"/>
+                                    <ELEM X="0.0429344028234482" Y="0.0480000004172325" Z="-0.0118427705019712" TYPE="POINT" NAME="Point 2"/>
+                                    <ELEM X="-0.0520598535532015" Y="0.0480111552922231" Z="0.00915722967768885" TYPE="POINT" NAME="Point 3"/>
+                                </ELEM>
+                            </NODE_ATTRIBUTE>
+                        </DATA_NODE>
+                        <DATA_NODE TYPE="SHAPE" REFOBJ_ID="44" NAME="Interactive Rectangle (3)">
+                            <NODE_ATTRIBUTE TYPE="SHAPE" NAME="SHAPE">
+                                <ELEM SHAPETYPE="RECTANGLE_3P" REVERSE_NORMAL="false" TYPE="SHAPE" NAME="Rectangle">
+                                    <ELEM X="-0.0520655959844589" Y="-0.0480000004172325" Z="-0.0118427705019712" TYPE="POINT" NAME="Point 1"/>
+                                    <ELEM X="-0.0520655959844589" Y="0.0480000004172325" Z="-0.0118427705019712" TYPE="POINT" NAME="Point 2"/>
+                                    <ELEM X="0.0429344028234482" Y="0.0480000004172325" Z="-0.0118427705019712" TYPE="POINT" NAME="Point 3"/>
+                                </ELEM>
+                            </NODE_ATTRIBUTE>
+                        </DATA_NODE>
+                        <DATA_NODE TYPE="SHAPE" REFOBJ_ID="128" NAME="Interactive Rectangle (5)">
+                            <NODE_ATTRIBUTE TYPE="SHAPE" NAME="SHAPE">
+                                <ELEM SHAPETYPE="RECTANGLE_3P" REVERSE_NORMAL="true" TYPE="SHAPE" NAME="Rectangle">
+                                    <ELEM X="0.0429401434957981" Y="-0.0480000972747803" Z="0.00915678776800632" TYPE="POINT" NAME="Point 1"/>
+                                    <ELEM X="0.0429402403533459" Y="0.0479999035596848" Z="0.00915722921490669" TYPE="POINT" NAME="Point 2"/>
+                                    <ELEM X="0.0429344028234482" Y="-0.0480000004172325" Z="-0.0118427705019712" TYPE="POINT" NAME="Point 3"/>
+                                </ELEM>
+                            </NODE_ATTRIBUTE>
+                        </DATA_NODE>
+                        <DATA_NODE TYPE="SHAPE" REFOBJ_ID="68" NAME="Interactive Rectangle">
+                            <NODE_ATTRIBUTE TYPE="PROP_APPLI" NAME="Thermica">
+                                <CONTENER TYPE="SHELL" NAME="Bulk"/>
+                                <CONTENER TYPE="SHELL" NAME="Transverse"/>
+                                <CONTENER TYPE="SHELL" NAME="Coating" INHERITED="FALSE">
+                                    <ELEM TYPE="STRING" ID="ActivityId" STR="BOTHFACE"/>
+                                    <ELEM TYPE="STRING" ID="FaceId" STR="NONEFACE"/>
+                                </CONTENER>
+                                <CONTENER TYPE="SHELL" NAME="Miscellaneous"/>
+                                <CONTENER TYPE="SHELL" NAME="Enclosure"/>
+                            </NODE_ATTRIBUTE>
+                            <NODE_ATTRIBUTE TYPE="SHAPE" NAME="SHAPE">
+                                <ELEM SHAPETYPE="RECTANGLE_3P" REVERSE_NORMAL="false" TYPE="SHAPE" NAME="Rectangle">
+                                    <ELEM X="-0.0520712248980999" Y="-0.0480000004172325" Z="0.00915722921490669" TYPE="POINT" NAME="Point 1"/>
+                                    <ELEM X="0.0429401434957981" Y="-0.0480000972747803" Z="0.00915678776800632" TYPE="POINT" NAME="Point 2"/>
+                                    <ELEM X="0.0429401452547056" Y="0.0479999038328913" Z="0.00915722967768883" TYPE="POINT" NAME="Point 3"/>
+                                </ELEM>
+                            </NODE_ATTRIBUTE>
+                        </DATA_NODE>
+                        <NODE_ATTRIBUTE TYPE="PROP_APPLI" NAME="Thermica">
+                            <CONTENER TYPE="SHELL" NAME="Bulk"/>
+                            <CONTENER TYPE="VOLUME" NAME="Bulk"/>
+                            <CONTENER TYPE="SHELL" NAME="Transverse"/>
+                            <CONTENER TYPE="SHELL" NAME="Coating" INHERITED="FALSE">
+                                <ELEM TYPE="STRING" ID="ActivityId" STR="BOTHFACE"/>
+                                <ELEM TYPE="STRING" ID="FaceId" STR="NONEFACE"/>
+                                <FACE NAME="Alike sides">
+                                    <LAYER NAME="Layer 1">
+                                        <PROP_CATEGORY NAME="Thermo-optical IR">
+                                            <ELEM TYPE="STRING" NAME="Selected material" STR="Aluminium 6082"/>
+                                        </PROP_CATEGORY>
+                                        <PROP_CATEGORY NAME="Thermo-optical UV">
+                                            <ELEM TYPE="STRING" NAME="Selected material" STR="Aluminium 6082"/>
+                                        </PROP_CATEGORY>
+                                    </LAYER>
+                                </FACE>
+                            </CONTENER>
+                            <CONTENER TYPE="VOLUME" NAME="Coating"/>
+                            <CONTENER TYPE="SHELL" NAME="Miscellaneous"/>
+                            <CONTENER TYPE="SHELL" NAME="Enclosure"/>
+                            <CONTENER TYPE="VOLUME" NAME="Enclosure"/>
+                        </NODE_ATTRIBUTE>
+                    </DATA_NODE>
+                    <DATA_NODE TYPE="OBJECT" REFOBJ_ID="80" NAME="PCB TOP">
+                        <DATA_NODE TYPE="OBJECT" REFOBJ_ID="86" NAME="Copper Layer">
+                            <DATA_NODE TYPE="SHAPE" REFOBJ_ID="67" NAME="Interactive Rectangle">
+                                <NODE_ATTRIBUTE TYPE="SHAPE" NAME="SHAPE">
+                                    <ELEM SHAPETYPE="RECTANGLE_3P" REVERSE_NORMAL="false" TYPE="SHAPE" NAME="Rectangle">
+                                        <ELEM X="-0.0500709864622553" Y="-0.0459890833945155" Z="0.00685722972518629" TYPE="POINT" NAME="Point 1"/>
+                                        <ELEM X="0.0409290116900007" Y="-0.0459998611081076" Z="0.00685722972518632" TYPE="POINT" NAME="Point 2"/>
+                                        <ELEM X="-0.0500600903120076" Y="0.0460109167842985" Z="0.00685722972518615" TYPE="POINT" NAME="Point 3"/>
+                                    </ELEM>
+                                </NODE_ATTRIBUTE>
+                            </DATA_NODE>
+                        </DATA_NODE>
+                        <NODE_ATTRIBUTE TYPE="PROP_APPLI" NAME="Thermica">
+                            <CONTENER TYPE="SHELL" NAME="Bulk"/>
+                            <CONTENER TYPE="VOLUME" NAME="Bulk"/>
+                            <CONTENER TYPE="SHELL" NAME="Transverse"/>
+                            <CONTENER TYPE="SHELL" NAME="Coating" INHERITED="FALSE">
+                                <ELEM TYPE="STRING" ID="ActivityId" STR="BOTHFACE"/>
+                                <ELEM TYPE="STRING" ID="FaceId" STR="NONEFACE"/>
+                                <FACE NAME="Alike sides">
+                                    <LAYER NAME="Layer 1">
+                                        <PROP_CATEGORY NAME="Thermo-optical IR">
+                                            <ELEM TYPE="STRING" NAME="Selected material" STR="PCBZ"/>
+                                        </PROP_CATEGORY>
+                                        <PROP_CATEGORY NAME="Thermo-optical UV">
+                                            <ELEM TYPE="STRING" NAME="Selected material" STR="PCBZ"/>
+                                        </PROP_CATEGORY>
+                                    </LAYER>
+                                </FACE>
+                            </CONTENER>
+                            <CONTENER TYPE="VOLUME" NAME="Coating"/>
+                            <CONTENER TYPE="SHELL" NAME="Miscellaneous"/>
+                            <CONTENER TYPE="SHELL" NAME="Enclosure"/>
+                            <CONTENER TYPE="VOLUME" NAME="Enclosure"/>
+                        </NODE_ATTRIBUTE>
+                    </DATA_NODE>
+                    <DATA_NODE TYPE="OBJECT" REFOBJ_ID="70" NAME="Microbacteria Layer">
+                        <DATA_NODE TYPE="SHAPE" REFOBJ_ID="78" NAME="Interactive Rectangle (5)">
+                            <NODE_ATTRIBUTE TYPE="SHAPE" NAME="SHAPE">
+                                <ELEM SHAPETYPE="RECTANGLE_3P" REVERSE_NORMAL="false" TYPE="SHAPE" NAME="Rectangle">
+                                    <ELEM X="0.040929056740892" Y="-0.0459998856448527" Z="0.00285722994125301" TYPE="POINT" NAME="Point 1"/>
+                                    <ELEM X="-0.050070941411364" Y="-0.0459891079312605" Z="0.00285722994125302" TYPE="POINT" NAME="Point 2"/>
+                                    <ELEM X="-0.0500600449740887" Y="0.0460108928382397" Z="0.00285722990520298" TYPE="POINT" NAME="Point 3"/>
+                                </ELEM>
+                            </NODE_ATTRIBUTE>
+                        </DATA_NODE>
+                        <DATA_NODE TYPE="SHAPE" REFOBJ_ID="200" NAME="Interactive Rectangle (7)">
+                            <NODE_ATTRIBUTE TYPE="SHAPE" NAME="SHAPE">
+                                <ELEM SHAPETYPE="RECTANGLE_3P" REVERSE_NORMAL="false" TYPE="SHAPE" NAME="Rectangle">
+                                    <ELEM X="0.0409290567040443" Y="-0.0459998846054077" Z="0.00285722990520298" TYPE="POINT" NAME="Point 1"/>
+                                    <ELEM X="0.0409399531781673" Y="0.0460001155734062" Z="0.00285722990520298" TYPE="POINT" NAME="Point 2"/>
+                                    <ELEM X="0.0409290567040443" Y="-0.0459998846054077" Z="-0.00414277007803321" TYPE="POINT" NAME="Point 3"/>
+                                </ELEM>
+                            </NODE_ATTRIBUTE>
+                        </DATA_NODE>
+                        <DATA_NODE TYPE="SHAPE" REFOBJ_ID="199" NAME="Interactive Rectangle (6)">
+                            <NODE_ATTRIBUTE TYPE="SHAPE" NAME="SHAPE">
+                                <ELEM SHAPETYPE="RECTANGLE_3P" REVERSE_NORMAL="false" TYPE="SHAPE" NAME="Rectangle">
+                                    <ELEM X="-0.0500709414482117" Y="-0.0459891073405743" Z="0.00285722990520298" TYPE="POINT" NAME="Point 1"/>
+                                    <ELEM X="0.0409290567040443" Y="-0.0459998846054077" Z="0.00285722990520298" TYPE="POINT" NAME="Point 2"/>
+                                    <ELEM X="-0.0500709414482117" Y="-0.0459891073405743" Z="-0.00414277007803321" TYPE="POINT" NAME="Point 3"/>
+                                </ELEM>
+                            </NODE_ATTRIBUTE>
+                        </DATA_NODE>
+                        <DATA_NODE TYPE="SHAPE" REFOBJ_ID="201" NAME="Interactive Rectangle (8)">
+                            <NODE_ATTRIBUTE TYPE="SHAPE" NAME="SHAPE">
+                                <ELEM SHAPETYPE="RECTANGLE_3P" REVERSE_NORMAL="false" TYPE="SHAPE" NAME="Rectangle">
+                                    <ELEM X="-0.0500600449740887" Y="0.0460108928382397" Z="0.00285722990520298" TYPE="POINT" NAME="Point 1"/>
+                                    <ELEM X="-0.0500709414482117" Y="-0.0459891073405743" Z="0.00285722990520298" TYPE="POINT" NAME="Point 2"/>
+                                    <ELEM X="-0.0500600449740887" Y="0.0460108928382397" Z="-0.00414277007803321" TYPE="POINT" NAME="Point 3"/>
+                                </ELEM>
+                            </NODE_ATTRIBUTE>
+                        </DATA_NODE>
+                        <DATA_NODE TYPE="SHAPE" REFOBJ_ID="202" NAME="Interactive Rectangle">
+                            <NODE_ATTRIBUTE TYPE="SHAPE" NAME="SHAPE">
+                                <ELEM SHAPETYPE="RECTANGLE_3P" REVERSE_NORMAL="false" TYPE="SHAPE" NAME="Rectangle">
+                                    <ELEM X="0.0409399531781673" Y="0.0460001155734062" Z="0.00285722990520298" TYPE="POINT" NAME="Point 1"/>
+                                    <ELEM X="-0.0500600449740887" Y="0.0460108928382397" Z="0.00285722990520298" TYPE="POINT" NAME="Point 2"/>
+                                    <ELEM X="0.0409399531781673" Y="0.0460001155734062" Z="-0.00414277007803321" TYPE="POINT" NAME="Point 3"/>
+                                </ELEM>
+                            </NODE_ATTRIBUTE>
+                        </DATA_NODE>
+                        <DATA_NODE TYPE="SHAPE" REFOBJ_ID="77" NAME="Interactive Rectangle (4)">
+                            <NODE_ATTRIBUTE TYPE="SHAPE" NAME="SHAPE">
+                                <ELEM SHAPETYPE="RECTANGLE_3P" REVERSE_NORMAL="true" TYPE="SHAPE" NAME="Rectangle">
+                                    <ELEM X="0.0409399531781673" Y="0.0460001155734062" Z="-0.00414277007803321" TYPE="POINT" NAME="Point 1"/>
+                                    <ELEM X="0.040929056740892" Y="-0.0459998856448527" Z="-0.00414277027481383" TYPE="POINT" NAME="Point 2"/>
+                                    <ELEM X="-0.050070941411364" Y="-0.0459891079312605" Z="-0.00414277027481382" TYPE="POINT" NAME="Point 3"/>
+                                </ELEM>
+                            </NODE_ATTRIBUTE>
+                        </DATA_NODE>
+                        <NODE_ATTRIBUTE TYPE="PROP_APPLI" NAME="Thermica">
+                            <CONTENER TYPE="SHELL" NAME="Bulk"/>
+                            <CONTENER TYPE="VOLUME" NAME="Bulk"/>
+                            <CONTENER TYPE="SHELL" NAME="Transverse"/>
+                            <CONTENER TYPE="SHELL" NAME="Coating" INHERITED="FALSE">
+                                <ELEM TYPE="STRING" ID="ActivityId" STR="MINUSFACE"/>
+                                <ELEM TYPE="STRING" ID="FaceId" STR="NONEFACE"/>
+                                <FACE NAME="Alike sides">
+                                    <LAYER NAME="Layer 1">
+                                        <PROP_CATEGORY NAME="Thermo-optical IR">
+                                            <ELEM TYPE="STRING" NAME="Selected material" STR="Plastic"/>
+                                        </PROP_CATEGORY>
+                                        <PROP_CATEGORY NAME="Thermo-optical UV">
+                                            <ELEM TYPE="STRING" NAME="Selected material" STR="Plastic"/>
+                                        </PROP_CATEGORY>
+                                    </LAYER>
+                                </FACE>
+                            </CONTENER>
+                            <CONTENER TYPE="VOLUME" NAME="Coating"/>
+                            <CONTENER TYPE="SHELL" NAME="Miscellaneous"/>
+                            <CONTENER TYPE="SHELL" NAME="Enclosure"/>
+                            <CONTENER TYPE="VOLUME" NAME="Enclosure"/>
+                        </NODE_ATTRIBUTE>
+                    </DATA_NODE>
+                    <DATA_NODE TYPE="OBJECT" REFOBJ_ID="89" NAME="PCB BOTTOM">
+                        <DATA_NODE TYPE="OBJECT" REFOBJ_ID="90" NAME="Copper Layer">
+                            <DATA_NODE TYPE="SHAPE" REFOBJ_ID="214" NAME="Interactive Rectangle">
+                                <NODE_ATTRIBUTE TYPE="SHAPE" NAME="SHAPE">
+                                    <ELEM SHAPETYPE="RECTANGLE_3P" REVERSE_NORMAL="false" TYPE="SHAPE" NAME="Rectangle">
+                                        <ELEM X="-0.0500709864622553" Y="-0.0459890833945155" Z="0.00685722972518629" TYPE="POINT" NAME="Point 1"/>
+                                        <ELEM X="0.0409290116900007" Y="-0.0459998611081076" Z="0.00685722972518632" TYPE="POINT" NAME="Point 2"/>
+                                        <ELEM X="-0.0500600903120076" Y="0.0460109167842985" Z="0.00685722972518615" TYPE="POINT" NAME="Point 3"/>
+                                    </ELEM>
+                                </NODE_ATTRIBUTE>
+                                <NODE_ATTRIBUTE TYPE="AXIS" NAME="AXIS">
+                                    <ELEM AXISTYPE="TRAROT" TYPE="AXIS" NAME="Translations and rotations">
+                                        <ELEM AXISTYPE="TRANSLATION" TYPE="AXIS" NAME="X, Y or Z translation">
+                                            <ELEM TYPE="STRING" NAME="Translation direction" STR="TRAZ"/>
+                                            <ELEM L="-0.015" TYPE="LENGTH" NAME="Distance"/>
+                                        </ELEM>
+                                    </ELEM>
+                                </NODE_ATTRIBUTE>
+                            </DATA_NODE>
+                        </DATA_NODE>
+                        <NODE_ATTRIBUTE TYPE="PROP_APPLI" NAME="Thermica">
+                            <CONTENER TYPE="SHELL" NAME="Bulk"/>
+                            <CONTENER TYPE="VOLUME" NAME="Bulk"/>
+                            <CONTENER TYPE="SHELL" NAME="Transverse"/>
+                            <CONTENER TYPE="SHELL" NAME="Coating" INHERITED="FALSE">
+                                <ELEM TYPE="STRING" ID="ActivityId" STR="BOTHFACE"/>
+                                <ELEM TYPE="STRING" ID="FaceId" STR="NONEFACE"/>
+                                <FACE NAME="Alike sides">
+                                    <LAYER NAME="Layer 1">
+                                        <PROP_CATEGORY NAME="Thermo-optical IR">
+                                            <ELEM TYPE="STRING" NAME="Selected material" STR="PCBZ"/>
+                                        </PROP_CATEGORY>
+                                        <PROP_CATEGORY NAME="Thermo-optical UV">
+                                            <ELEM TYPE="STRING" NAME="Selected material" STR="PCBZ"/>
+                                        </PROP_CATEGORY>
+                                    </LAYER>
+                                </FACE>
+                            </CONTENER>
+                            <CONTENER TYPE="VOLUME" NAME="Coating"/>
+                            <CONTENER TYPE="SHELL" NAME="Miscellaneous"/>
+                            <CONTENER TYPE="SHELL" NAME="Enclosure"/>
+                            <CONTENER TYPE="VOLUME" NAME="Enclosure"/>
+                        </NODE_ATTRIBUTE>
+                    </DATA_NODE>
+                    <DATA_NODE TYPE="OBJECT" REFOBJ_ID="55" NAME="Microfluidic Tank No.1">
+                        <DATA_NODE TYPE="SHAPE" REFOBJ_ID="61" NAME="Interactive Rectangle (4)">
+                            <NODE_ATTRIBUTE TYPE="SHAPE" NAME="SHAPE">
+                                <ELEM SHAPETYPE="RECTANGLE_3P" REVERSE_NORMAL="false" TYPE="SHAPE" NAME="Rectangle">
+                                    <ELEM X="0.0104368291795254" Y="0.0200037527829409" Z="-0.0102427704259753" TYPE="POINT" NAME="Point 1"/>
+                                    <ELEM X="0.0104344605675087" Y="3.75282264914768e-06" Z="-0.0102427702748138" TYPE="POINT" NAME="Point 2"/>
+                                    <ELEM X="-0.0195631700336819" Y="0.0200073054680001" Z="-0.0102427702748138" TYPE="POINT" NAME="Point 3"/>
+                                </ELEM>
+                            </NODE_ATTRIBUTE>
+                        </DATA_NODE>
+                        <DATA_NODE TYPE="SHAPE" REFOBJ_ID="57" NAME="Interactive Rectangle">
+                            <NODE_ATTRIBUTE TYPE="SHAPE" NAME="SHAPE">
+                                <ELEM SHAPETYPE="RECTANGLE_3P" REVERSE_NORMAL="false" TYPE="SHAPE" NAME="Rectangle">
+                                    <ELEM X="0.0104368292957659" Y="0.0200037523756143" Z="-0.0202427700512964" TYPE="POINT" NAME="Point 1"/>
+                                    <ELEM X="0.0104344608262181" Y="3.75237550542806e-06" Z="-0.0202427711337805" TYPE="POINT" NAME="Point 2"/>
+                                    <ELEM X="0.0104368292957659" Y="0.0200037523756143" Z="-0.0102427702748138" TYPE="POINT" NAME="Point 3"/>
+                                </ELEM>
+                            </NODE_ATTRIBUTE>
+                        </DATA_NODE>
+                        <DATA_NODE TYPE="SHAPE" REFOBJ_ID="59" NAME="Interactive Rectangle (2)">
+                            <NODE_ATTRIBUTE TYPE="SHAPE" NAME="SHAPE">
+                                <ELEM SHAPETYPE="RECTANGLE_3P" REVERSE_NORMAL="false" TYPE="SHAPE" NAME="Rectangle">
+                                    <ELEM X="-0.0195655394345522" Y="7.30630245016073e-06" Z="-0.0202427711337805" TYPE="POINT" NAME="Point 1"/>
+                                    <ELEM X="-0.0195631700336819" Y="0.0200073054680001" Z="-0.0202427700512964" TYPE="POINT" NAME="Point 2"/>
+                                    <ELEM X="-0.0195631701499224" Y="0.0200073048472404" Z="-0.0102427704259753" TYPE="POINT" NAME="Point 3"/>
+                                </ELEM>
+                            </NODE_ATTRIBUTE>
+                        </DATA_NODE>
+                        <DATA_NODE TYPE="SHAPE" REFOBJ_ID="58" NAME="Interactive Rectangle (1)">
+                            <NODE_ATTRIBUTE TYPE="SHAPE" NAME="SHAPE">
+                                <ELEM SHAPETYPE="RECTANGLE_3P" REVERSE_NORMAL="false" TYPE="SHAPE" NAME="Rectangle">
+                                    <ELEM X="-0.0195631700336819" Y="0.0200073054680001" Z="-0.0202427700512964" TYPE="POINT" NAME="Point 1"/>
+                                    <ELEM X="0.0104368292957659" Y="0.0200037523756143" Z="-0.0202427700512964" TYPE="POINT" NAME="Point 2"/>
+                                    <ELEM X="0.0104368292957659" Y="0.0200037523756143" Z="-0.0102427702748138" TYPE="POINT" NAME="Point 3"/>
+                                </ELEM>
+                            </NODE_ATTRIBUTE>
+                        </DATA_NODE>
+                        <DATA_NODE TYPE="SHAPE" REFOBJ_ID="60" NAME="Interactive Rectangle (3)">
+                            <NODE_ATTRIBUTE TYPE="SHAPE" NAME="SHAPE">
+                                <ELEM SHAPETYPE="RECTANGLE_3P" REVERSE_NORMAL="true" TYPE="SHAPE" NAME="Rectangle">
+                                    <ELEM X="0.0104368292957659" Y="0.0200037523756143" Z="-0.0202427700512964" TYPE="POINT" NAME="Point 1"/>
+                                    <ELEM X="0.0104344608262181" Y="3.75237550542806e-06" Z="-0.0202427711337805" TYPE="POINT" NAME="Point 2"/>
+                                    <ELEM X="-0.0195655394345522" Y="7.30630245016073e-06" Z="-0.0202427711337805" TYPE="POINT" NAME="Point 3"/>
+                                </ELEM>
+                            </NODE_ATTRIBUTE>
+                        </DATA_NODE>
+                        <NODE_ATTRIBUTE TYPE="PROP_APPLI" NAME="Thermica">
+                            <CONTENER TYPE="SHELL" NAME="Bulk"/>
+                            <CONTENER TYPE="VOLUME" NAME="Bulk"/>
+                            <CONTENER TYPE="SHELL" NAME="Transverse"/>
+                            <CONTENER TYPE="SHELL" NAME="Coating" INHERITED="FALSE">
+                                <ELEM TYPE="STRING" ID="ActivityId" STR="MINUSFACE"/>
+                                <ELEM TYPE="STRING" ID="FaceId" STR="NONEFACE"/>
+                                <FACE NAME="Alike sides">
+                                    <LAYER NAME="Layer 1">
+                                        <PROP_CATEGORY NAME="Thermo-optical IR">
+                                            <ELEM TYPE="STRING" NAME="Selected material" STR="Plastic"/>
+                                        </PROP_CATEGORY>
+                                        <PROP_CATEGORY NAME="Thermo-optical UV">
+                                            <ELEM TYPE="STRING" NAME="Selected material" STR="Plastic"/>
+                                        </PROP_CATEGORY>
+                                    </LAYER>
+                                </FACE>
+                            </CONTENER>
+                            <CONTENER TYPE="VOLUME" NAME="Coating"/>
+                            <CONTENER TYPE="SHELL" NAME="Miscellaneous"/>
+                            <CONTENER TYPE="SHELL" NAME="Enclosure"/>
+                            <CONTENER TYPE="VOLUME" NAME="Enclosure"/>
+                        </NODE_ATTRIBUTE>
+                    </DATA_NODE>
+                    <DATA_NODE TYPE="OBJECT" REFOBJ_ID="49" NAME="Microfluidic Tank No.2">
+                        <DATA_NODE TYPE="SHAPE" REFOBJ_ID="54" NAME="Interactive Rectangle (4)">
+                            <NODE_ATTRIBUTE TYPE="SHAPE" NAME="SHAPE">
+                                <ELEM SHAPETYPE="RECTANGLE_3P" REVERSE_NORMAL="true" TYPE="SHAPE" NAME="Rectangle">
+                                    <ELEM X="0.0104320918391986" Y="-0.0199962471773508" Z="-0.0102427704983313" TYPE="POINT" NAME="Point 1"/>
+                                    <ELEM X="0.0104344608262181" Y="3.75194622392883e-06" Z="-0.0102427704259753" TYPE="POINT" NAME="Point 2"/>
+                                    <ELEM X="-0.0195679068565369" Y="-0.0199926942586899" Z="-0.0102427704259753" TYPE="POINT" NAME="Point 3"/>
+                                </ELEM>
+                            </NODE_ATTRIBUTE>
+                        </DATA_NODE>
+                        <DATA_NODE TYPE="SHAPE" REFOBJ_ID="51" NAME="Interactive Rectangle (1)">
+                            <NODE_ATTRIBUTE TYPE="SHAPE" NAME="SHAPE">
+                                <ELEM SHAPETYPE="RECTANGLE_3P" REVERSE_NORMAL="true" TYPE="SHAPE" NAME="Rectangle">
+                                    <ELEM X="0.0104320915415883" Y="-0.0199962463229895" Z="-0.0202427711337805" TYPE="POINT" NAME="Point 1"/>
+                                    <ELEM X="0.0104344605674558" Y="3.75237561432359e-06" Z="-0.0202427702748138" TYPE="POINT" NAME="Point 2"/>
+                                    <ELEM X="0.0104344605674558" Y="3.75237561432359e-06" Z="-0.0102427704983313" TYPE="POINT" NAME="Point 3"/>
+                                </ELEM>
+                            </NODE_ATTRIBUTE>
+                        </DATA_NODE>
+                        <DATA_NODE TYPE="SHAPE" REFOBJ_ID="50" NAME="Interactive Rectangle">
+                            <NODE_ATTRIBUTE TYPE="SHAPE" NAME="SHAPE">
+                                <ELEM SHAPETYPE="RECTANGLE_3P" REVERSE_NORMAL="true" TYPE="SHAPE" NAME="Rectangle">
+                                    <ELEM X="-0.0195679074902491" Y="-0.0199926940849651" Z="-0.0202427702748138" TYPE="POINT" NAME="Point 1"/>
+                                    <ELEM X="0.0104320918391986" Y="-0.0199962471773508" Z="-0.0202427702748138" TYPE="POINT" NAME="Point 2"/>
+                                    <ELEM X="0.0104320918391986" Y="-0.0199962471773508" Z="-0.0102427704983313" TYPE="POINT" NAME="Point 3"/>
+                                </ELEM>
+                            </NODE_ATTRIBUTE>
+                        </DATA_NODE>
+                        <DATA_NODE TYPE="SHAPE" REFOBJ_ID="53" NAME="Interactive Rectangle (3)">
+                            <NODE_ATTRIBUTE TYPE="SHAPE" NAME="SHAPE">
+                                <ELEM SHAPETYPE="RECTANGLE_3P" REVERSE_NORMAL="false" TYPE="SHAPE" NAME="Rectangle">
+                                    <ELEM X="-0.019567908719182" Y="-0.0199926923960447" Z="-0.0202427711337805" TYPE="POINT" NAME="Point 1"/>
+                                    <ELEM X="-0.0195655394345522" Y="7.30630245016073e-06" Z="-0.0202427711337805" TYPE="POINT" NAME="Point 2"/>
+                                    <ELEM X="-0.019565538761992" Y="7.3054680000597e-06" Z="-0.0102427704983312" TYPE="POINT" NAME="Point 3"/>
+                                </ELEM>
+                            </NODE_ATTRIBUTE>
+                        </DATA_NODE>
+                        <DATA_NODE TYPE="SHAPE" REFOBJ_ID="52" NAME="Interactive Rectangle (2)">
+                            <NODE_ATTRIBUTE TYPE="SHAPE" NAME="SHAPE">
+                                <ELEM SHAPETYPE="RECTANGLE_3P" REVERSE_NORMAL="false" TYPE="SHAPE" NAME="Rectangle">
+                                    <ELEM X="0.0104320915415883" Y="-0.0199962463229895" Z="-0.0202427711337805" TYPE="POINT" NAME="Point 1"/>
+                                    <ELEM X="0.0104344608262181" Y="3.75237550542806e-06" Z="-0.0202427711337805" TYPE="POINT" NAME="Point 2"/>
+                                    <ELEM X="-0.019565538761992" Y="7.30546800005796e-06" Z="-0.0202427702748138" TYPE="POINT" NAME="Point 3"/>
+                                </ELEM>
+                            </NODE_ATTRIBUTE>
+                        </DATA_NODE>
+                        <NODE_ATTRIBUTE TYPE="PROP_APPLI" NAME="Thermica">
+                            <CONTENER TYPE="SHELL" NAME="Bulk"/>
+                            <CONTENER TYPE="VOLUME" NAME="Bulk"/>
+                            <CONTENER TYPE="SHELL" NAME="Transverse"/>
+                            <CONTENER TYPE="SHELL" NAME="Coating" INHERITED="FALSE">
+                                <ELEM TYPE="STRING" ID="ActivityId" STR="MINUSFACE"/>
+                                <ELEM TYPE="STRING" ID="FaceId" STR="NONEFACE"/>
+                                <FACE NAME="Alike sides">
+                                    <LAYER NAME="Layer 1">
+                                        <PROP_CATEGORY NAME="Thermo-optical IR">
+                                            <ELEM TYPE="STRING" NAME="Selected material" STR="Plastic"/>
+                                        </PROP_CATEGORY>
+                                        <PROP_CATEGORY NAME="Thermo-optical UV">
+                                            <ELEM TYPE="STRING" NAME="Selected material" STR="Plastic"/>
+                                        </PROP_CATEGORY>
+                                    </LAYER>
+                                </FACE>
+                            </CONTENER>
+                            <CONTENER TYPE="VOLUME" NAME="Coating"/>
+                            <CONTENER TYPE="SHELL" NAME="Miscellaneous"/>
+                            <CONTENER TYPE="SHELL" NAME="Enclosure"/>
+                            <CONTENER TYPE="VOLUME" NAME="Enclosure"/>
+                        </NODE_ATTRIBUTE>
+                    </DATA_NODE>
+                    <NODE_ATTRIBUTE TYPE="PROP_APPLI" NAME="Thermica">
+                        <CONTENER TYPE="SHELL" NAME="Bulk"/>
+                        <CONTENER TYPE="VOLUME" NAME="Bulk"/>
+                        <CONTENER TYPE="SHELL" NAME="Transverse"/>
+                        <CONTENER TYPE="SHELL" NAME="Coating" INHERITED="FALSE">
+                            <ELEM TYPE="STRING" ID="FaceId" STR="NONEFACE"/>
+                        </CONTENER>
+                        <CONTENER TYPE="VOLUME" NAME="Coating"/>
+                        <CONTENER TYPE="SHELL" NAME="Miscellaneous"/>
+                        <CONTENER TYPE="SHELL" NAME="Enclosure"/>
+                        <CONTENER TYPE="VOLUME" NAME="Enclosure"/>
+                    </NODE_ATTRIBUTE>
+                </DATA_NODE>
+                <DATA_NODE TYPE="OBJECT" REFOBJ_ID="127" NAME="Part 2">
+                    <DATA_NODE TYPE="OBJECT" REFOBJ_ID="41" NAME="Bottom Frame">
+                        <DATA_NODE TYPE="SHAPE" REFOBJ_ID="35" NAME="Interactive Rectangle">
+                            <NODE_ATTRIBUTE TYPE="SHAPE" NAME="SHAPE">
+                                <ELEM SHAPETYPE="RECTANGLE_3P" REVERSE_NORMAL="true" TYPE="SHAPE" NAME="Rectangle">
+                                    <ELEM X="0.0258600004017353" Y="0.0399999991059303" Z="-0.0218427702784538" TYPE="POINT" NAME="Point 1"/>
+                                    <ELEM X="-0.0350000001490116" Y="0.0399999991059303" Z="-0.0218427702784538" TYPE="POINT" NAME="Point 2"/>
+                                    <ELEM X="-0.0350000001490116" Y="-0.0399999991059303" Z="-0.0218427702784538" TYPE="POINT" NAME="Point 3"/>
+                                </ELEM>
+                            </NODE_ATTRIBUTE>
+                        </DATA_NODE>
+                        <DATA_NODE TYPE="SHAPE" REFOBJ_ID="129" NAME="Interactive Rectangle (1)">
+                            <NODE_ATTRIBUTE TYPE="SHAPE" NAME="SHAPE">
+                                <ELEM SHAPETYPE="RECTANGLE_3P" REVERSE_NORMAL="true" TYPE="SHAPE" NAME="Rectangle">
+                                    <ELEM X="0.0258600004017353" Y="0.0399999991059303" Z="-0.0118427705019712" TYPE="POINT" NAME="Point 1"/>
+                                    <ELEM X="-0.0350000001490116" Y="0.0399999991059303" Z="-0.0118427705019712" TYPE="POINT" NAME="Point 2"/>
+                                    <ELEM X="0.0258600004017353" Y="0.0399999991059303" Z="-0.0218427702784538" TYPE="POINT" NAME="Point 3"/>
+                                </ELEM>
+                            </NODE_ATTRIBUTE>
+                        </DATA_NODE>
+                        <DATA_NODE TYPE="SHAPE" REFOBJ_ID="37" NAME="Interactive Rectangle (2)">
+                            <NODE_ATTRIBUTE TYPE="SHAPE" NAME="SHAPE">
+                                <ELEM SHAPETYPE="RECTANGLE_3P" REVERSE_NORMAL="true" TYPE="SHAPE" NAME="Rectangle">
+                                    <ELEM X="0.0258600004017353" Y="0.0399999991059303" Z="-0.0218427702784538" TYPE="POINT" NAME="Point 1"/>
+                                    <ELEM X="0.0258600004017353" Y="-0.0399999991059303" Z="-0.0218427702784538" TYPE="POINT" NAME="Point 2"/>
+                                    <ELEM X="0.0258600004017353" Y="-0.0399999991059303" Z="-0.0118427705019712" TYPE="POINT" NAME="Point 3"/>
+                                </ELEM>
+                            </NODE_ATTRIBUTE>
+                        </DATA_NODE>
+                        <DATA_NODE TYPE="SHAPE" REFOBJ_ID="39" NAME="Interactive Rectangle (4)">
+                            <NODE_ATTRIBUTE TYPE="SHAPE" NAME="SHAPE">
+                                <ELEM SHAPETYPE="RECTANGLE_3P" REVERSE_NORMAL="true" TYPE="SHAPE" NAME="Rectangle">
+                                    <ELEM X="-0.0350000001490116" Y="-0.0399999991059303" Z="-0.0218427702784538" TYPE="POINT" NAME="Point 1"/>
+                                    <ELEM X="-0.0350000001490116" Y="0.0399999991059303" Z="-0.0218427702784538" TYPE="POINT" NAME="Point 2"/>
+                                    <ELEM X="-0.0350000001490116" Y="0.0399999991059303" Z="-0.0118427705019712" TYPE="POINT" NAME="Point 3"/>
+                                </ELEM>
+                            </NODE_ATTRIBUTE>
+                        </DATA_NODE>
+                        <DATA_NODE TYPE="SHAPE" REFOBJ_ID="38" NAME="Interactive Rectangle (3)">
+                            <NODE_ATTRIBUTE TYPE="SHAPE" NAME="SHAPE">
+                                <ELEM SHAPETYPE="RECTANGLE_3P" REVERSE_NORMAL="true" TYPE="SHAPE" NAME="Rectangle">
+                                    <ELEM X="0.0258600004017353" Y="-0.0399999991059303" Z="-0.0218427702784538" TYPE="POINT" NAME="Point 1"/>
+                                    <ELEM X="-0.0350000001490116" Y="-0.0399999991059303" Z="-0.0218427702784538" TYPE="POINT" NAME="Point 2"/>
+                                    <ELEM X="-0.0350000001490116" Y="-0.0399999991059303" Z="-0.0118427705019712" TYPE="POINT" NAME="Point 3"/>
+                                </ELEM>
+                            </NODE_ATTRIBUTE>
+                        </DATA_NODE>
+                        <NODE_ATTRIBUTE TYPE="PROP_APPLI" NAME="Thermica">
+                            <CONTENER TYPE="SHELL" NAME="Bulk"/>
+                            <CONTENER TYPE="VOLUME" NAME="Bulk"/>
+                            <CONTENER TYPE="SHELL" NAME="Transverse"/>
+                            <CONTENER TYPE="SHELL" NAME="Coating" INHERITED="FALSE">
+                                <ELEM TYPE="STRING" ID="ActivityId" STR="BOTHFACE"/>
+                                <ELEM TYPE="STRING" ID="FaceId" STR="NONEFACE"/>
+                                <FACE NAME="Alike sides">
+                                    <LAYER NAME="Layer 1">
+                                        <PROP_CATEGORY NAME="Thermo-optical IR">
+                                            <ELEM TYPE="STRING" NAME="Selected material" STR="Aluminium 6082"/>
+                                        </PROP_CATEGORY>
+                                        <PROP_CATEGORY NAME="Thermo-optical UV">
+                                            <ELEM TYPE="STRING" NAME="Selected material" STR="Aluminium 6082"/>
+                                        </PROP_CATEGORY>
+                                    </LAYER>
+                                </FACE>
+                            </CONTENER>
+                            <CONTENER TYPE="VOLUME" NAME="Coating"/>
+                            <CONTENER TYPE="SHELL" NAME="Miscellaneous"/>
+                            <CONTENER TYPE="SHELL" NAME="Enclosure"/>
+                            <CONTENER TYPE="VOLUME" NAME="Enclosure"/>
+                        </NODE_ATTRIBUTE>
+                    </DATA_NODE>
+                </DATA_NODE>
+                <DATA_NODE TYPE="OBJECT" REFOBJ_ID="182" NAME="Upper Stack Rods">
+                    <DATA_NODE TYPE="OBJECT" REFOBJ_ID="183" NAME="Rod 1">
+                        <DATA_NODE TYPE="SHAPE" REFOBJ_ID="184" NAME="Interactive Disc">
+                            <NODE_ATTRIBUTE TYPE="SHAPE" NAME="SHAPE">
+                                <ELEM SHAPETYPE="DISC_3PBIS" REVERSE_NORMAL="false" TYPE="SHAPE" NAME="Disc">
+                                    <ELEM X="0.040003564208746" Y="0.0405235588550568" Z="0.0251559894531965" TYPE="POINT" NAME="Point 1"/>
+                                    <ELEM X="0.0379656367003918" Y="0.0384856387972832" Z="0.0251559894531965" TYPE="POINT" NAME="Point 2"/>
+                                    <ELEM X="0.0404817797243595" Y="0.0378114357590675" Z="0.0251559894531965" TYPE="POINT" NAME="Point 3"/>
+                                </ELEM>
+                            </NODE_ATTRIBUTE>
+                            <NODE_ATTRIBUTE TYPE="PROP_APPLI" NAME="Thermica">
+                                <CONTENER TYPE="SHELL" NAME="Bulk"/>
+                                <CONTENER TYPE="SHELL" NAME="Transverse"/>
+                                <CONTENER TYPE="SHELL" NAME="Coating">
+                                    <ELEM TYPE="STRING" ID="ActivityId" STR="PLUSFACE"/>
+                                </CONTENER>
+                                <CONTENER TYPE="SHELL" NAME="Miscellaneous"/>
+                                <CONTENER TYPE="SHELL" NAME="Enclosure"/>
+                            </NODE_ATTRIBUTE>
+                        </DATA_NODE>
+                        <DATA_NODE TYPE="SHAPE" REFOBJ_ID="185" NAME="Interactive Disc (1)">
+                            <NODE_ATTRIBUTE TYPE="SHAPE" NAME="SHAPE">
+                                <ELEM SHAPETYPE="DISC_3PBIS" REVERSE_NORMAL="false" TYPE="SHAPE" NAME="Disc">
+                                    <ELEM X="0.0408367291092873" Y="0.0398244448006153" Z="-0.0248440112918615" TYPE="POINT" NAME="Point 1"/>
+                                    <ELEM X="0.039183646440506" Y="0.0374636016786098" Z="-0.0248440112918615" TYPE="POINT" NAME="Point 2"/>
+                                    <ELEM X="0.0380827710032463" Y="0.0398244485259056" Z="-0.0248440112918615" TYPE="POINT" NAME="Point 3"/>
+                                </ELEM>
+                            </NODE_ATTRIBUTE>
+                            <NODE_ATTRIBUTE TYPE="PROP_APPLI" NAME="Thermica">
+                                <CONTENER TYPE="SHELL" NAME="Bulk"/>
+                                <CONTENER TYPE="SHELL" NAME="Transverse"/>
+                                <CONTENER TYPE="SHELL" NAME="Coating">
+                                    <ELEM TYPE="STRING" ID="ActivityId" STR="PLUSFACE"/>
+                                </CONTENER>
+                                <CONTENER TYPE="SHELL" NAME="Miscellaneous"/>
+                                <CONTENER TYPE="SHELL" NAME="Enclosure"/>
+                            </NODE_ATTRIBUTE>
+                        </DATA_NODE>
+                        <DATA_NODE TYPE="SHAPE" REFOBJ_ID="186" NAME="Interactive 4 points cylinder (3 points on base, height)">
+                            <NODE_ATTRIBUTE TYPE="SHAPE" NAME="SHAPE">
+                                <ELEM SHAPETYPE="CYLINDER_4P" REVERSE_NORMAL="false" TYPE="SHAPE" NAME="4 points cylinder">
+                                    <ELEM X="0.0402547512967144" Y="0.0404064262749343" Z="0.0251559897277481" TYPE="POINT" NAME="Point 1"/>
+                                    <ELEM X="0.0386647512968634" Y="0.0404064290425985" Z="0.0251559897277481" TYPE="POINT" NAME="Point 2"/>
+                                    <ELEM X="0.0378697489000728" Y="0.0390294513734101" Z="0.0251559897277481" TYPE="POINT" NAME="Point 3"/>
+                                    <ELEM X="0.0386647512968634" Y="0.0404064290425985" Z="-0.02484401101731" TYPE="POINT" NAME="Point 4"/>
+                                </ELEM>
+                            </NODE_ATTRIBUTE>
+                            <NODE_ATTRIBUTE TYPE="PROP_APPLI" NAME="Thermica">
+                                <CONTENER TYPE="SHELL" NAME="Bulk"/>
+                                <CONTENER TYPE="SHELL" NAME="Transverse"/>
+                                <CONTENER TYPE="SHELL" NAME="Coating">
+                                    <ELEM TYPE="STRING" ID="ActivityId" STR="PLUSFACE"/>
+                                </CONTENER>
+                                <CONTENER TYPE="SHELL" NAME="Miscellaneous"/>
+                                <CONTENER TYPE="SHELL" NAME="Enclosure"/>
+                            </NODE_ATTRIBUTE>
+                        </DATA_NODE>
+                        <NODE_ATTRIBUTE TYPE="PROP_APPLI" NAME="Thermica">
+                            <CONTENER TYPE="SHELL" NAME="Bulk"/>
+                            <CONTENER TYPE="VOLUME" NAME="Bulk"/>
+                            <CONTENER TYPE="SHELL" NAME="Transverse"/>
+                            <CONTENER TYPE="SHELL" NAME="Coating">
+                                <ELEM TYPE="STRING" ID="ActivityId" STR="PLUSFACE"/>
+                            </CONTENER>
+                            <CONTENER TYPE="VOLUME" NAME="Coating"/>
+                            <CONTENER TYPE="SHELL" NAME="Miscellaneous"/>
+                            <CONTENER TYPE="SHELL" NAME="Enclosure"/>
+                            <CONTENER TYPE="VOLUME" NAME="Enclosure"/>
+                        </NODE_ATTRIBUTE>
+                    </DATA_NODE>
+                    <DATA_NODE TYPE="OBJECT" REFOBJ_ID="187" NAME="Rod 2">
+                        <DATA_NODE TYPE="SHAPE" REFOBJ_ID="188" NAME="Interactive 4 points cylinder (3 points on base, height)">
+                            <NODE_ATTRIBUTE TYPE="SHAPE" NAME="SHAPE">
+                                <ELEM SHAPETYPE="CYLINDER_4P" REVERSE_NORMAL="false" TYPE="SHAPE" NAME="4 points cylinder">
+                                    <ELEM X="0.0410796096592432" Y="-0.0409605537468379" Z="0.0251559897277481" TYPE="POINT" NAME="Point 1"/>
+                                    <ELEM X="0.0402846120561853" Y="-0.0395835719130015" Z="0.0251559897277481" TYPE="POINT" NAME="Point 2"/>
+                                    <ELEM X="0.0386946120563343" Y="-0.0395835691453373" Z="0.0251559897277481" TYPE="POINT" NAME="Point 3"/>
+                                    <ELEM X="0.0402846120561853" Y="-0.0395835719130015" Z="-0.02484401101731" TYPE="POINT" NAME="Point 4"/>
+                                </ELEM>
+                            </NODE_ATTRIBUTE>
+                            <NODE_ATTRIBUTE TYPE="PROP_APPLI" NAME="Thermica">
+                                <CONTENER TYPE="SHELL" NAME="Bulk"/>
+                                <CONTENER TYPE="SHELL" NAME="Transverse"/>
+                                <CONTENER TYPE="SHELL" NAME="Coating">
+                                    <ELEM TYPE="STRING" ID="ActivityId" STR="PLUSFACE"/>
+                                </CONTENER>
+                                <CONTENER TYPE="SHELL" NAME="Miscellaneous"/>
+                                <CONTENER TYPE="SHELL" NAME="Enclosure"/>
+                            </NODE_ATTRIBUTE>
+                        </DATA_NODE>
+                        <DATA_NODE TYPE="SHAPE" REFOBJ_ID="189" NAME="Interactive Disc">
+                            <NODE_ATTRIBUTE TYPE="SHAPE" NAME="SHAPE">
+                                <ELEM SHAPETYPE="DISC_3PBIS" REVERSE_NORMAL="false" TYPE="SHAPE" NAME="Disc">
+                                    <ELEM X="0.040983721613884" Y="-0.0415043644607067" Z="0.0251559894531965" TYPE="POINT" NAME="Point 1"/>
+                                    <ELEM X="0.0394896119832993" Y="-0.0393705517053604" Z="0.0251559894531965" TYPE="POINT" NAME="Point 2"/>
+                                    <ELEM X="0.0381126292049885" Y="-0.0417555496096611" Z="0.0251559894531965" TYPE="POINT" NAME="Point 3"/>
+                                </ELEM>
+                            </NODE_ATTRIBUTE>
+                            <NODE_ATTRIBUTE TYPE="PROP_APPLI" NAME="Thermica">
+                                <CONTENER TYPE="SHELL" NAME="Bulk"/>
+                                <CONTENER TYPE="SHELL" NAME="Transverse"/>
+                                <CONTENER TYPE="SHELL" NAME="Coating">
+                                    <ELEM TYPE="STRING" ID="ActivityId" STR="PLUSFACE"/>
+                                </CONTENER>
+                                <CONTENER TYPE="SHELL" NAME="Miscellaneous"/>
+                                <CONTENER TYPE="SHELL" NAME="Enclosure"/>
+                            </NODE_ATTRIBUTE>
+                        </DATA_NODE>
+                        <DATA_NODE TYPE="SHAPE" REFOBJ_ID="190" NAME="Interactive Disc (1)">
+                            <NODE_ATTRIBUTE TYPE="SHAPE" NAME="SHAPE">
+                                <ELEM SHAPETYPE="DISC_3PBIS" REVERSE_NORMAL="true" TYPE="SHAPE" NAME="Disc">
+                                    <ELEM X="0.0408665873110294" Y="-0.0417555533349514" Z="-0.0248440112918615" TYPE="POINT" NAME="Point 1"/>
+                                    <ELEM X="0.0394896119832993" Y="-0.0393705517053604" Z="-0.0248440112918615" TYPE="POINT" NAME="Point 2"/>
+                                    <ELEM X="0.0379954986274242" Y="-0.0415043607354164" Z="-0.0248440112918615" TYPE="POINT" NAME="Point 3"/>
+                                </ELEM>
+                            </NODE_ATTRIBUTE>
+                            <NODE_ATTRIBUTE TYPE="PROP_APPLI" NAME="Thermica">
+                                <CONTENER TYPE="SHELL" NAME="Bulk"/>
+                                <CONTENER TYPE="SHELL" NAME="Transverse"/>
+                                <CONTENER TYPE="SHELL" NAME="Coating">
+                                    <ELEM TYPE="STRING" ID="ActivityId" STR="PLUSFACE"/>
+                                </CONTENER>
+                                <CONTENER TYPE="SHELL" NAME="Miscellaneous"/>
+                                <CONTENER TYPE="SHELL" NAME="Enclosure"/>
+                            </NODE_ATTRIBUTE>
+                        </DATA_NODE>
+                        <NODE_ATTRIBUTE TYPE="PROP_APPLI" NAME="Thermica">
+                            <CONTENER TYPE="SHELL" NAME="Bulk"/>
+                            <CONTENER TYPE="VOLUME" NAME="Bulk"/>
+                            <CONTENER TYPE="SHELL" NAME="Transverse"/>
+                            <CONTENER TYPE="SHELL" NAME="Coating">
+                                <ELEM TYPE="STRING" ID="ActivityId" STR="PLUSFACE"/>
+                            </CONTENER>
+                            <CONTENER TYPE="VOLUME" NAME="Coating"/>
+                            <CONTENER TYPE="SHELL" NAME="Miscellaneous"/>
+                            <CONTENER TYPE="SHELL" NAME="Enclosure"/>
+                            <CONTENER TYPE="VOLUME" NAME="Enclosure"/>
+                        </NODE_ATTRIBUTE>
+                    </DATA_NODE>
+                    <DATA_NODE TYPE="OBJECT" REFOBJ_ID="191" NAME="Rod 3">
+                        <DATA_NODE TYPE="SHAPE" REFOBJ_ID="192" NAME="Interactive 4 points cylinder (3 points on base, height)">
+                            <NODE_ATTRIBUTE TYPE="SHAPE" NAME="SHAPE">
+                                <ELEM SHAPETYPE="CYLINDER_4P" REVERSE_NORMAL="false" TYPE="SHAPE" NAME="4 points cylinder">
+                                    <ELEM X="-0.0468153857323681" Y="-0.0383773810824744" Z="0.0251559897277481" TYPE="POINT" NAME="Point 1"/>
+                                    <ELEM X="-0.0452253871295009" Y="-0.0383773838501362" Z="0.0251559897277481" TYPE="POINT" NAME="Point 2"/>
+                                    <ELEM X="-0.0444303854312002" Y="-0.0370004050167933" Z="0.0251559897277481" TYPE="POINT" NAME="Point 3"/>
+                                    <ELEM X="-0.0468153857323681" Y="-0.0383773810824744" Z="-0.02484401101731" TYPE="POINT" NAME="Point 4"/>
+                                </ELEM>
+                            </NODE_ATTRIBUTE>
+                            <NODE_ATTRIBUTE TYPE="PROP_APPLI" NAME="Thermica">
+                                <CONTENER TYPE="SHELL" NAME="Bulk"/>
+                                <CONTENER TYPE="SHELL" NAME="Transverse"/>
+                                <CONTENER TYPE="SHELL" NAME="Coating">
+                                    <ELEM TYPE="STRING" ID="ActivityId" STR="PLUSFACE"/>
+                                </CONTENER>
+                                <CONTENER TYPE="SHELL" NAME="Miscellaneous"/>
+                                <CONTENER TYPE="SHELL" NAME="Enclosure"/>
+                            </NODE_ATTRIBUTE>
+                        </DATA_NODE>
+                        <DATA_NODE TYPE="SHAPE" REFOBJ_ID="193" NAME="Interactive Disc">
+                            <NODE_ATTRIBUTE TYPE="SHAPE" NAME="SHAPE">
+                                <ELEM SHAPETYPE="DISC_3PBIS" REVERSE_NORMAL="false" TYPE="SHAPE" NAME="Disc">
+                                    <ELEM X="-0.0472383946180344" Y="-0.0380224324762821" Z="0.0251559894531965" TYPE="POINT" NAME="Point 1"/>
+                                    <ELEM X="-0.0448023751378059" Y="-0.0380224362015724" Z="0.0251559894531965" TYPE="POINT" NAME="Point 2"/>
+                                    <ELEM X="-0.0457442812621593" Y="-0.0354345589876175" Z="0.0251559894531965" TYPE="POINT" NAME="Point 3"/>
+                                </ELEM>
+                            </NODE_ATTRIBUTE>
+                            <NODE_ATTRIBUTE TYPE="PROP_APPLI" NAME="Thermica">
+                                <CONTENER TYPE="SHELL" NAME="Bulk"/>
+                                <CONTENER TYPE="SHELL" NAME="Transverse"/>
+                                <CONTENER TYPE="SHELL" NAME="Coating">
+                                    <ELEM TYPE="STRING" ID="ActivityId" STR="PLUSFACE"/>
+                                </CONTENER>
+                                <CONTENER TYPE="SHELL" NAME="Miscellaneous"/>
+                                <CONTENER TYPE="SHELL" NAME="Enclosure"/>
+                            </NODE_ATTRIBUTE>
+                        </DATA_NODE>
+                        <DATA_NODE TYPE="SHAPE" REFOBJ_ID="194" NAME="Interactive Disc (1)">
+                            <NODE_ATTRIBUTE TYPE="SHAPE" NAME="SHAPE">
+                                <ELEM SHAPETYPE="DISC_3PBIS" REVERSE_NORMAL="false" TYPE="SHAPE" NAME="Disc">
+                                    <ELEM X="-0.0446434020996094" Y="-0.0362054072320461" Z="-0.0248440112918615" TYPE="POINT" NAME="Point 1"/>
+                                    <ELEM X="-0.0460203886032104" Y="-0.0385904014110565" Z="-0.0248440112918615" TYPE="POINT" NAME="Point 2"/>
+                                    <ELEM X="-0.0475144945085049" Y="-0.0364565886557102" Z="-0.0248440112918615" TYPE="POINT" NAME="Point 3"/>
+                                </ELEM>
+                            </NODE_ATTRIBUTE>
+                            <NODE_ATTRIBUTE TYPE="PROP_APPLI" NAME="Thermica">
+                                <CONTENER TYPE="SHELL" NAME="Bulk"/>
+                                <CONTENER TYPE="SHELL" NAME="Transverse"/>
+                                <CONTENER TYPE="SHELL" NAME="Coating">
+                                    <ELEM TYPE="STRING" ID="ActivityId" STR="PLUSFACE"/>
+                                </CONTENER>
+                                <CONTENER TYPE="SHELL" NAME="Miscellaneous"/>
+                                <CONTENER TYPE="SHELL" NAME="Enclosure"/>
+                            </NODE_ATTRIBUTE>
+                        </DATA_NODE>
+                        <NODE_ATTRIBUTE TYPE="PROP_APPLI" NAME="Thermica">
+                            <CONTENER TYPE="SHELL" NAME="Bulk"/>
+                            <CONTENER TYPE="VOLUME" NAME="Bulk"/>
+                            <CONTENER TYPE="SHELL" NAME="Transverse"/>
+                            <CONTENER TYPE="SHELL" NAME="Coating">
+                                <ELEM TYPE="STRING" ID="ActivityId" STR="PLUSFACE"/>
+                            </CONTENER>
+                            <CONTENER TYPE="VOLUME" NAME="Coating"/>
+                            <CONTENER TYPE="SHELL" NAME="Miscellaneous"/>
+                            <CONTENER TYPE="SHELL" NAME="Enclosure"/>
+                            <CONTENER TYPE="VOLUME" NAME="Enclosure"/>
+                        </NODE_ATTRIBUTE>
+                    </DATA_NODE>
+                    <DATA_NODE TYPE="OBJECT" REFOBJ_ID="195" NAME="Rod 4">
+                        <DATA_NODE TYPE="SHAPE" REFOBJ_ID="196" NAME="Interactive 4 points cylinder (3 points on base, height)">
+                            <NODE_ATTRIBUTE TYPE="SHAPE" NAME="SHAPE">
+                                <ELEM SHAPETYPE="CYLINDER_4P" REVERSE_NORMAL="false" TYPE="SHAPE" NAME="4 points cylinder">
+                                    <ELEM X="-0.0479102521514094" Y="0.0365996012769102" Z="0.0251559897277481" TYPE="POINT" NAME="Point 1"/>
+                                    <ELEM X="-0.047115255246841" Y="0.0352226208400589" Z="0.0251559897277481" TYPE="POINT" NAME="Point 2"/>
+                                    <ELEM X="-0.0455252566439738" Y="0.0352226180723971" Z="0.0251559897277481" TYPE="POINT" NAME="Point 3"/>
+                                    <ELEM X="-0.0471152504531107" Y="0.0379765789460998" Z="-0.02484401101731" TYPE="POINT" NAME="Point 4"/>
+                                </ELEM>
+                            </NODE_ATTRIBUTE>
+                            <NODE_ATTRIBUTE TYPE="PROP_APPLI" NAME="Thermica">
+                                <CONTENER TYPE="SHELL" NAME="Bulk"/>
+                                <CONTENER TYPE="SHELL" NAME="Transverse"/>
+                                <CONTENER TYPE="SHELL" NAME="Coating">
+                                    <ELEM TYPE="STRING" ID="ActivityId" STR="PLUSFACE"/>
+                                </CONTENER>
+                                <CONTENER TYPE="SHELL" NAME="Miscellaneous"/>
+                                <CONTENER TYPE="SHELL" NAME="Enclosure"/>
+                            </NODE_ATTRIBUTE>
+                        </DATA_NODE>
+                        <DATA_NODE TYPE="SHAPE" REFOBJ_ID="197" NAME="Interactive Disc">
+                            <NODE_ATTRIBUTE TYPE="SHAPE" NAME="SHAPE">
+                                <ELEM SHAPETYPE="DISC_3PBIS" REVERSE_NORMAL="false" TYPE="SHAPE" NAME="Disc">
+                                    <ELEM X="-0.0465963520109653" Y="0.0381654426455498" Z="0.0251559894531965" TYPE="POINT" NAME="Point 1"/>
+                                    <ELEM X="-0.0476972348988056" Y="0.0358046032488346" Z="0.0251559894531965" TYPE="POINT" NAME="Point 2"/>
+                                    <ELEM X="-0.0449432767927647" Y="0.035804595798254" Z="0.0251559894531965" TYPE="POINT" NAME="Point 3"/>
+                                </ELEM>
+                            </NODE_ATTRIBUTE>
+                            <NODE_ATTRIBUTE TYPE="PROP_APPLI" NAME="Thermica">
+                                <CONTENER TYPE="SHELL" NAME="Bulk"/>
+                                <CONTENER TYPE="SHELL" NAME="Transverse"/>
+                                <CONTENER TYPE="SHELL" NAME="Coating">
+                                    <ELEM TYPE="STRING" ID="ActivityId" STR="PLUSFACE"/>
+                                </CONTENER>
+                                <CONTENER TYPE="SHELL" NAME="Miscellaneous"/>
+                                <CONTENER TYPE="SHELL" NAME="Enclosure"/>
+                            </NODE_ATTRIBUTE>
+                        </DATA_NODE>
+                        <DATA_NODE TYPE="SHAPE" REFOBJ_ID="198" NAME="Interactive Disc (1)">
+                            <NODE_ATTRIBUTE TYPE="SHAPE" NAME="SHAPE">
+                                <ELEM SHAPETYPE="DISC_3PBIS" REVERSE_NORMAL="false" TYPE="SHAPE" NAME="Disc">
+                                    <ELEM X="-0.0463202558457851" Y="0.0350096002221107" Z="-0.0248440112918615" TYPE="POINT" NAME="Point 1"/>
+                                    <ELEM X="-0.0476972311735153" Y="0.0373946018517017" Z="-0.0248440112918615" TYPE="POINT" NAME="Point 2"/>
+                                    <ELEM X="-0.0449432730674744" Y="0.0373945944011211" Z="-0.0248440112918615" TYPE="POINT" NAME="Point 3"/>
+                                </ELEM>
+                            </NODE_ATTRIBUTE>
+                            <NODE_ATTRIBUTE TYPE="PROP_APPLI" NAME="Thermica">
+                                <CONTENER TYPE="SHELL" NAME="Bulk"/>
+                                <CONTENER TYPE="SHELL" NAME="Transverse"/>
+                                <CONTENER TYPE="SHELL" NAME="Coating">
+                                    <ELEM TYPE="STRING" ID="ActivityId" STR="PLUSFACE"/>
+                                </CONTENER>
+                                <CONTENER TYPE="SHELL" NAME="Miscellaneous"/>
+                                <CONTENER TYPE="SHELL" NAME="Enclosure"/>
+                            </NODE_ATTRIBUTE>
+                        </DATA_NODE>
+                        <NODE_ATTRIBUTE TYPE="PROP_APPLI" NAME="Thermica">
+                            <CONTENER TYPE="SHELL" NAME="Bulk"/>
+                            <CONTENER TYPE="VOLUME" NAME="Bulk"/>
+                            <CONTENER TYPE="SHELL" NAME="Transverse"/>
+                            <CONTENER TYPE="SHELL" NAME="Coating">
+                                <ELEM TYPE="STRING" ID="ActivityId" STR="PLUSFACE"/>
+                            </CONTENER>
+                            <CONTENER TYPE="VOLUME" NAME="Coating"/>
+                            <CONTENER TYPE="SHELL" NAME="Miscellaneous"/>
+                            <CONTENER TYPE="SHELL" NAME="Enclosure"/>
+                            <CONTENER TYPE="VOLUME" NAME="Enclosure"/>
+                        </NODE_ATTRIBUTE>
+                    </DATA_NODE>
+                    <NODE_ATTRIBUTE TYPE="PROP_APPLI" NAME="Thermica">
+                        <CONTENER TYPE="SHELL" NAME="Bulk"/>
+                        <CONTENER TYPE="VOLUME" NAME="Bulk"/>
+                        <CONTENER TYPE="SHELL" NAME="Transverse"/>
+                        <CONTENER TYPE="SHELL" NAME="Coating" INHERITED="FALSE">
+                            <ELEM TYPE="STRING" ID="FaceId" STR="NONEFACE"/>
+                            <FACE NAME="Alike sides">
+                                <LAYER NAME="Layer 1">
+                                    <PROP_CATEGORY NAME="Thermo-optical IR">
+                                        <ELEM TYPE="STRING" NAME="Selected material" STR="Aluminium 6082"/>
+                                    </PROP_CATEGORY>
+                                    <PROP_CATEGORY NAME="Thermo-optical UV">
+                                        <ELEM TYPE="STRING" NAME="Selected material" STR="Aluminium 6082"/>
+                                    </PROP_CATEGORY>
+                                </LAYER>
+                            </FACE>
+                        </CONTENER>
+                        <CONTENER TYPE="VOLUME" NAME="Coating"/>
+                        <CONTENER TYPE="SHELL" NAME="Miscellaneous"/>
+                        <CONTENER TYPE="SHELL" NAME="Enclosure"/>
+                        <CONTENER TYPE="VOLUME" NAME="Enclosure"/>
+                    </NODE_ATTRIBUTE>
+                </DATA_NODE>
+                <DATA_NODE TYPE="OBJECT" REFOBJ_ID="216" NAME="Distances">
+                    <DATA_NODE TYPE="OBJECT" REFOBJ_ID="226" NAME="Top distance">
+                        <DATA_NODE TYPE="SHAPE" REFOBJ_ID="227" NAME="Interactive 4 points cylinder (3 points on base, height) (2)">
+                            <NODE_ATTRIBUTE TYPE="SHAPE" NAME="SHAPE">
+                                <ELEM SHAPETYPE="CYLINDER_4P" REVERSE_NORMAL="false" TYPE="SHAPE" NAME="4 points cylinder">
+                                    <ELEM X="0.0372783692291311" Y="-0.0211795603402458" Z="0.00685722991517598" TYPE="POINT" NAME="Point 1"/>
+                                    <ELEM X="0.0352783689013056" Y="-0.0211793234673759" Z="0.00685722991517598" TYPE="POINT" NAME="Point 2"/>
+                                    <ELEM X="0.0342785720127037" Y="-0.0194471536581923" Z="0.00685722991517598" TYPE="POINT" NAME="Point 3"/>
+                                    <ELEM X="0.0382785726683548" Y="-0.019447627403932" Z="0.00915722972518628" TYPE="POINT" NAME="Point 4"/>
+                                </ELEM>
+                            </NODE_ATTRIBUTE>
+                        </DATA_NODE>
+                        <DATA_NODE TYPE="SHAPE" REFOBJ_ID="232" NAME="Interactive Disc">
+                            <NODE_ATTRIBUTE TYPE="SHAPE" NAME="SHAPE">
+                                <ELEM SHAPETYPE="DISC_3PBIS" REVERSE_NORMAL="false" TYPE="SHAPE" NAME="Disc">
+                                    <ELEM X="0.0382785759866238" Y="-0.0194476265460253" Z="0.00915723014622927" TYPE="POINT" NAME="Point 1"/>
+                                    <ELEM X="0.0372787825763226" Y="-0.0177154541015625" Z="0.00915723014622927" TYPE="POINT" NAME="Point 2"/>
+                                    <ELEM X="0.0343992672860622" Y="-0.0187631249427795" Z="0.00915723014622927" TYPE="POINT" NAME="Point 3"/>
+                                </ELEM>
+                            </NODE_ATTRIBUTE>
+                        </DATA_NODE>
+                        <DATA_NODE TYPE="SHAPE" REFOBJ_ID="230" NAME="Interactive 4 points cylinder (3 points on base, height) (3)">
+                            <NODE_ATTRIBUTE TYPE="SHAPE" NAME="SHAPE">
+                                <ELEM SHAPETYPE="CYLINDER_4P" REVERSE_NORMAL="false" TYPE="SHAPE" NAME="4 points cylinder">
+                                    <ELEM X="0.0372829621933316" Y="0.017600439720551" Z="0.00685722991517597" TYPE="POINT" NAME="Point 1"/>
+                                    <ELEM X="0.0352829618655061" Y="0.0176006765934208" Z="0.00685722991517597" TYPE="POINT" NAME="Point 2"/>
+                                    <ELEM X="0.0342831649769042" Y="0.0193328464026044" Z="0.00685722991517597" TYPE="POINT" NAME="Point 3"/>
+                                    <ELEM X="0.0382831656325553" Y="0.0193323726568647" Z="0.00915722972518627" TYPE="POINT" NAME="Point 4"/>
+                                </ELEM>
+                            </NODE_ATTRIBUTE>
+                        </DATA_NODE>
+                        <DATA_NODE TYPE="SHAPE" REFOBJ_ID="233" NAME="Interactive Disc (1)">
+                            <NODE_ATTRIBUTE TYPE="SHAPE" NAME="SHAPE">
+                                <ELEM SHAPETYPE="DISC_3PBIS" REVERSE_NORMAL="false" TYPE="SHAPE" NAME="Disc">
+                                    <ELEM X="0.0381624735891819" Y="0.0186483468860388" Z="0.00915723014622927" TYPE="POINT" NAME="Point 1"/>
+                                    <ELEM X="0.0372833758592606" Y="0.0210645459592342" Z="0.00915723014622927" TYPE="POINT" NAME="Point 2"/>
+                                    <ELEM X="0.0345512330532074" Y="0.0203328188508749" Z="0.00915723014622927" TYPE="POINT" NAME="Point 3"/>
+                                </ELEM>
+                            </NODE_ATTRIBUTE>
+                        </DATA_NODE>
+                        <DATA_NODE TYPE="SHAPE" REFOBJ_ID="228" NAME="Interactive 4 points cylinder (3 points on base, height) (1)">
+                            <NODE_ATTRIBUTE TYPE="SHAPE" NAME="SHAPE">
+                                <ELEM SHAPETYPE="CYLINDER_4P" REVERSE_NORMAL="false" TYPE="SHAPE" NAME="4 points cylinder">
+                                    <ELEM X="-0.0442966293916133" Y="0.0210742045086044" Z="0.00685722991517599" TYPE="POINT" NAME="Point 1"/>
+                                    <ELEM X="-0.0432968325030114" Y="0.0193420346994208" Z="0.00685722991517599" TYPE="POINT" NAME="Point 2"/>
+                                    <ELEM X="-0.0442970396675254" Y="0.0176101017635483" Z="0.00685722991517599" TYPE="POINT" NAME="Point 3"/>
+                                    <ELEM X="-0.0472968331586625" Y="0.0193425084451605" Z="0.00915722972518629" TYPE="POINT" NAME="Point 4"/>
+                                </ELEM>
+                            </NODE_ATTRIBUTE>
+                        </DATA_NODE>
+                        <DATA_NODE TYPE="SHAPE" REFOBJ_ID="235" NAME="Interactive Disc (2)">
+                            <NODE_ATTRIBUTE TYPE="SHAPE" NAME="SHAPE">
+                                <ELEM SHAPETYPE="DISC_3PBIS" REVERSE_NORMAL="false" TYPE="SHAPE" NAME="Disc">
+                                    <ELEM X="-0.0432968325912952" Y="0.0193420369178057" Z="0.00915723014622927" TYPE="POINT" NAME="Point 1"/>
+                                    <ELEM X="-0.045296598225832" Y="0.0213422700762749" Z="0.00915723014622927" TYPE="POINT" NAME="Point 2"/>
+                                    <ELEM X="-0.0472664870321751" Y="0.0189952049404383" Z="0.00915723014622927" TYPE="POINT" NAME="Point 3"/>
+                                </ELEM>
+                            </NODE_ATTRIBUTE>
+                        </DATA_NODE>
+                        <DATA_NODE TYPE="SHAPE" REFOBJ_ID="229" NAME="Interactive 4 points cylinder (3 points on base, height)">
+                            <NODE_ATTRIBUTE TYPE="SHAPE" NAME="SHAPE">
+                                <ELEM SHAPETYPE="CYLINDER_4P" REVERSE_NORMAL="false" TYPE="SHAPE" NAME="4 points cylinder">
+                                    <ELEM X="-0.0463012226836393" Y="-0.0177055586793225" Z="0.006857229915176" TYPE="POINT" NAME="Point 1"/>
+                                    <ELEM X="-0.0443012223558138" Y="-0.0177057955521923" Z="0.006857229915176" TYPE="POINT" NAME="Point 2"/>
+                                    <ELEM X="-0.0433014254672119" Y="-0.0194379653613759" Z="0.006857229915176" TYPE="POINT" NAME="Point 3"/>
+                                    <ELEM X="-0.047301426122863" Y="-0.0194374916156362" Z="0.0091572297251863" TYPE="POINT" NAME="Point 4"/>
+                                </ELEM>
+                            </NODE_ATTRIBUTE>
+                        </DATA_NODE>
+                        <DATA_NODE TYPE="SHAPE" REFOBJ_ID="236" NAME="Interactive Disc (3)">
+                            <NODE_ATTRIBUTE TYPE="SHAPE" NAME="SHAPE">
+                                <ELEM SHAPETYPE="DISC_3PBIS" REVERSE_NORMAL="false" TYPE="SHAPE" NAME="Disc">
+                                    <ELEM X="-0.0433318503201008" Y="-0.0197852607816458" Z="0.00915723014622927" TYPE="POINT" NAME="Point 1"/>
+                                    <ELEM X="-0.0446171648800373" Y="-0.0175584238022566" Z="0.00915723014622927" TYPE="POINT" NAME="Point 2"/>
+                                    <ELEM X="-0.0473014302551746" Y="-0.0194374918937683" Z="0.00915723014622927" TYPE="POINT" NAME="Point 3"/>
+                                </ELEM>
+                            </NODE_ATTRIBUTE>
+                        </DATA_NODE>
+                        <NODE_ATTRIBUTE TYPE="PROP_APPLI" NAME="Thermica">
+                            <CONTENER TYPE="SHELL" NAME="Bulk"/>
+                            <CONTENER TYPE="VOLUME" NAME="Bulk"/>
+                            <CONTENER TYPE="SHELL" NAME="Transverse"/>
+                            <CONTENER TYPE="SHELL" NAME="Coating">
+                                <FACE NAME="Alike sides">
+                                    <LAYER NAME="Layer 1">
+                                        <PROP_CATEGORY NAME="Thermo-optical IR">
+                                            <ELEM TYPE="STRING" NAME="Selected material" STR="Aluminium 6082"/>
+                                        </PROP_CATEGORY>
+                                        <PROP_CATEGORY NAME="Thermo-optical UV">
+                                            <ELEM TYPE="STRING" NAME="Selected material" STR="Aluminium 6082"/>
+                                        </PROP_CATEGORY>
+                                    </LAYER>
+                                </FACE>
+                            </CONTENER>
+                            <CONTENER TYPE="VOLUME" NAME="Coating"/>
+                            <CONTENER TYPE="SHELL" NAME="Miscellaneous"/>
+                            <CONTENER TYPE="SHELL" NAME="Enclosure"/>
+                            <CONTENER TYPE="VOLUME" NAME="Enclosure"/>
+                        </NODE_ATTRIBUTE>
+                    </DATA_NODE>
+                    <DATA_NODE TYPE="OBJECT" REFOBJ_ID="220" NAME="PCB Micro Distance">
+                        <DATA_NODE TYPE="SHAPE" REFOBJ_ID="72" NAME="Interactive 4 points cylinder (3 points on base, height)">
+                            <NODE_ATTRIBUTE TYPE="SHAPE" NAME="SHAPE">
+                                <ELEM SHAPETYPE="CYLINDER_4P" REVERSE_NORMAL="false" TYPE="SHAPE" NAME="4 points cylinder">
+                                    <ELEM X="-0.0442966293916133" Y="0.0210742045086044" Z="0.00285722972518619" TYPE="POINT" NAME="Point 1"/>
+                                    <ELEM X="-0.0462966297194389" Y="0.0210744413814742" Z="0.00285722972518619" TYPE="POINT" NAME="Point 2"/>
+                                    <ELEM X="-0.0472968331586625" Y="0.0193425084451605" Z="0.00285722972518619" TYPE="POINT" NAME="Point 3"/>
+                                    <ELEM X="-0.0472968331586625" Y="0.0193425084451605" Z="0.00685722991517599" TYPE="POINT" NAME="Point 4"/>
+                                </ELEM>
+                            </NODE_ATTRIBUTE>
+                        </DATA_NODE>
+                        <DATA_NODE TYPE="SHAPE" REFOBJ_ID="73" NAME="Interactive 4 points cylinder (3 points on base, height) (1)">
+                            <NODE_ATTRIBUTE TYPE="SHAPE" NAME="SHAPE">
+                                <ELEM SHAPETYPE="CYLINDER_4P" REVERSE_NORMAL="false" TYPE="SHAPE" NAME="4 points cylinder">
+                                    <ELEM X="-0.0443012223558138" Y="-0.0177057955521923" Z="0.0028572297251862" TYPE="POINT" NAME="Point 1"/>
+                                    <ELEM X="-0.0463012226836393" Y="-0.0177055586793225" Z="0.0028572297251862" TYPE="POINT" NAME="Point 2"/>
+                                    <ELEM X="-0.047301426122863" Y="-0.0194374916156363" Z="0.0028572297251862" TYPE="POINT" NAME="Point 3"/>
+                                    <ELEM X="-0.047301426122863" Y="-0.0194374916156363" Z="0.006857229915176" TYPE="POINT" NAME="Point 4"/>
+                                </ELEM>
+                            </NODE_ATTRIBUTE>
+                        </DATA_NODE>
+                        <DATA_NODE TYPE="SHAPE" REFOBJ_ID="74" NAME="Interactive 4 points cylinder (3 points on base, height) (2)">
+                            <NODE_ATTRIBUTE TYPE="SHAPE" NAME="SHAPE">
+                                <ELEM SHAPETYPE="CYLINDER_4P" REVERSE_NORMAL="false" TYPE="SHAPE" NAME="4 points cylinder">
+                                    <ELEM X="0.0352783689013056" Y="-0.0211793234673759" Z="0.00285722972518618" TYPE="POINT" NAME="Point 1"/>
+                                    <ELEM X="0.0372783692291311" Y="-0.0211795603402458" Z="0.00285722972518618" TYPE="POINT" NAME="Point 2"/>
+                                    <ELEM X="0.0382785726683548" Y="-0.019447627403932" Z="0.00285722972518618" TYPE="POINT" NAME="Point 3"/>
+                                    <ELEM X="0.0382785726683548" Y="-0.019447627403932" Z="0.00685722991517598" TYPE="POINT" NAME="Point 4"/>
+                                </ELEM>
+                            </NODE_ATTRIBUTE>
+                        </DATA_NODE>
+                        <DATA_NODE TYPE="SHAPE" REFOBJ_ID="75" NAME="Interactive 4 points cylinder (3 points on base, height) (3)">
+                            <NODE_ATTRIBUTE TYPE="SHAPE" NAME="SHAPE">
+                                <ELEM SHAPETYPE="CYLINDER_4P" REVERSE_NORMAL="false" TYPE="SHAPE" NAME="4 points cylinder">
+                                    <ELEM X="0.0352829618655061" Y="0.0176006765934208" Z="0.00285722972518617" TYPE="POINT" NAME="Point 1"/>
+                                    <ELEM X="0.0372829621933316" Y="0.017600439720551" Z="0.00285722972518617" TYPE="POINT" NAME="Point 2"/>
+                                    <ELEM X="0.0382831656325553" Y="0.0193323726568647" Z="0.00285722972518617" TYPE="POINT" NAME="Point 3"/>
+                                    <ELEM X="0.0382831656325553" Y="0.0193323726568647" Z="0.00685722991517597" TYPE="POINT" NAME="Point 4"/>
+                                </ELEM>
+                            </NODE_ATTRIBUTE>
+                        </DATA_NODE>
+                    </DATA_NODE>
+                    <DATA_NODE TYPE="OBJECT" REFOBJ_ID="221" NAME="Micro PCB Distance">
+                        <DATA_NODE TYPE="SHAPE" REFOBJ_ID="76" NAME="Interactive 4 points cylinder (3 points on base, height)">
+                            <NODE_ATTRIBUTE TYPE="SHAPE" NAME="SHAPE">
+                                <ELEM SHAPETYPE="CYLINDER_4P" REVERSE_NORMAL="false" TYPE="SHAPE" NAME="4 points cylinder">
+                                    <ELEM X="-0.0442988602671497" Y="0.0210790457876321" Z="-0.00814277027481383" TYPE="POINT" NAME="Point 1"/>
+                                    <ELEM X="-0.0462988605949752" Y="0.0210792826605019" Z="-0.00814277027481383" TYPE="POINT" NAME="Point 2"/>
+                                    <ELEM X="-0.0472990640341989" Y="0.0193473497241882" Z="-0.00814277027481383" TYPE="POINT" NAME="Point 3"/>
+                                    <ELEM X="-0.0472990640341989" Y="0.0193473497241882" Z="-0.00414277008482402" TYPE="POINT" NAME="Point 4"/>
+                                </ELEM>
+                            </NODE_ATTRIBUTE>
+                        </DATA_NODE>
+                        <DATA_NODE TYPE="SHAPE" REFOBJ_ID="222" NAME="Interactive 4 points cylinder (3 points on base, height) (1)">
+                            <NODE_ATTRIBUTE TYPE="SHAPE" NAME="SHAPE">
+                                <ELEM SHAPETYPE="CYLINDER_4P" REVERSE_NORMAL="false" TYPE="SHAPE" NAME="4 points cylinder">
+                                    <ELEM X="-0.0443034538047026" Y="-0.0177057952879075" Z="-0.00814277027481382" TYPE="POINT" NAME="Point 1"/>
+                                    <ELEM X="-0.0463034541325281" Y="-0.0177055584150377" Z="-0.00814277027481382" TYPE="POINT" NAME="Point 2"/>
+                                    <ELEM X="-0.0473036575717518" Y="-0.0194374913513514" Z="-0.00814277027481382" TYPE="POINT" NAME="Point 3"/>
+                                    <ELEM X="-0.0473036575717518" Y="-0.0194374913513514" Z="-0.00414277008482402" TYPE="POINT" NAME="Point 4"/>
+                                </ELEM>
+                            </NODE_ATTRIBUTE>
+                        </DATA_NODE>
+                        <DATA_NODE TYPE="SHAPE" REFOBJ_ID="223" NAME="Interactive 4 points cylinder (3 points on base, height) (2)">
+                            <NODE_ATTRIBUTE TYPE="SHAPE" NAME="SHAPE">
+                                <ELEM SHAPETYPE="CYLINDER_4P" REVERSE_NORMAL="false" TYPE="SHAPE" NAME="4 points cylinder">
+                                    <ELEM X="0.0352783689013056" Y="-0.0211793234673759" Z="-0.00814277027481383" TYPE="POINT" NAME="Point 1"/>
+                                    <ELEM X="0.0372783692291311" Y="-0.0211795603402458" Z="-0.00814277027481383" TYPE="POINT" NAME="Point 2"/>
+                                    <ELEM X="0.0382785726683548" Y="-0.019447627403932" Z="-0.00814277027481383" TYPE="POINT" NAME="Point 3"/>
+                                    <ELEM X="0.0382785726683548" Y="-0.019447627403932" Z="-0.00414277008482402" TYPE="POINT" NAME="Point 4"/>
+                                </ELEM>
+                            </NODE_ATTRIBUTE>
+                        </DATA_NODE>
+                        <DATA_NODE TYPE="SHAPE" REFOBJ_ID="79" NAME="Interactive 4 points cylinder (3 points on base, height) (3)">
+                            <NODE_ATTRIBUTE TYPE="SHAPE" NAME="SHAPE">
+                                <ELEM SHAPETYPE="CYLINDER_4P" REVERSE_NORMAL="false" TYPE="SHAPE" NAME="4 points cylinder">
+                                    <ELEM X="0.0352829624390791" Y="0.0176055194708088" Z="-0.00814277027481384" TYPE="POINT" NAME="Point 1"/>
+                                    <ELEM X="0.0372829627669046" Y="0.017605282597939" Z="-0.00814277027481384" TYPE="POINT" NAME="Point 2"/>
+                                    <ELEM X="0.0382831662059077" Y="0.0193372136716076" Z="-0.00814277027481384" TYPE="POINT" NAME="Point 3"/>
+                                    <ELEM X="0.0382831662059077" Y="0.0193372136716076" Z="-0.00414277008482403" TYPE="POINT" NAME="Point 4"/>
+                                </ELEM>
+                            </NODE_ATTRIBUTE>
+                        </DATA_NODE>
+                    </DATA_NODE>
+                    <DATA_NODE TYPE="OBJECT" REFOBJ_ID="224" NAME="PCB Tank Distance">
+                        <DATA_NODE TYPE="SHAPE" REFOBJ_ID="81" NAME="Interactive 4 points cylinder (3 points on base, height) (1)">
+                            <NODE_ATTRIBUTE TYPE="SHAPE" NAME="SHAPE">
+                                <ELEM SHAPETYPE="CYLINDER_4P" REVERSE_NORMAL="false" TYPE="SHAPE" NAME="4 points cylinder">
+                                    <ELEM X="-0.0153041489534881" Y="-0.00466775808188389" Z="-0.0102427702748138" TYPE="POINT" NAME="Point 1"/>
+                                    <ELEM X="-0.0160993113395503" Y="-0.00604464437502064" Z="-0.0102427702748138" TYPE="POINT" NAME="Point 2"/>
+                                    <ELEM X="-0.0153044751227455" Y="-0.00742171898189257" Z="-0.0102427702748138" TYPE="POINT" NAME="Point 3"/>
+                                    <ELEM X="-0.0160993113395503" Y="-0.00604464437502064" Z="-0.0081427703" TYPE="POINT" NAME="Point 4"/>
+                                </ELEM>
+                            </NODE_ATTRIBUTE>
+                        </DATA_NODE>
+                        <DATA_NODE TYPE="SHAPE" REFOBJ_ID="225" NAME="Interactive 4 points cylinder (3 points on base, height)">
+                            <NODE_ATTRIBUTE TYPE="SHAPE" NAME="SHAPE">
+                                <ELEM SHAPETYPE="CYLINDER_4P" REVERSE_NORMAL="false" TYPE="SHAPE" NAME="4 points cylinder">
+                                    <ELEM X="-0.0153027277164896" Y="0.00733224202242424" Z="-0.0102427702748138" TYPE="POINT" NAME="Point 1"/>
+                                    <ELEM X="-0.0160978901025519" Y="0.00595535572928749" Z="-0.0102427702748138" TYPE="POINT" NAME="Point 2"/>
+                                    <ELEM X="-0.0153030538857471" Y="0.00457828112241556" Z="-0.0102427702748138" TYPE="POINT" NAME="Point 3"/>
+                                    <ELEM X="-0.0160978901025519" Y="0.00595535572928749" Z="-0.0081427703" TYPE="POINT" NAME="Point 4"/>
+                                </ELEM>
+                            </NODE_ATTRIBUTE>
+                        </DATA_NODE>
+                        <DATA_NODE TYPE="SHAPE" REFOBJ_ID="82" NAME="Interactive 4 points cylinder (3 points on base, height) (2)">
+                            <NODE_ATTRIBUTE TYPE="SHAPE" NAME="SHAPE">
+                                <ELEM SHAPETYPE="CYLINDER_4P" REVERSE_NORMAL="false" TYPE="SHAPE" NAME="4 points cylinder">
+                                    <ELEM X="0.00469585153079969" Y="-0.00467012681025136" Z="-0.0102427702748138" TYPE="POINT" NAME="Point 1"/>
+                                    <ELEM X="0.00390068821341483" Y="-0.00604701310327781" Z="-0.0102427702748138" TYPE="POINT" NAME="Point 2"/>
+                                    <ELEM X="0.00469552536154225" Y="-0.00742408771026004" Z="-0.0102427702748138" TYPE="POINT" NAME="Point 3"/>
+                                    <ELEM X="0.00390068821341483" Y="-0.00604701310327781" Z="-0.0081427703" TYPE="POINT" NAME="Point 4"/>
+                                </ELEM>
+                            </NODE_ATTRIBUTE>
+                        </DATA_NODE>
+                        <DATA_NODE TYPE="SHAPE" REFOBJ_ID="83" NAME="Interactive 4 points cylinder (3 points on base, height) (3)">
+                            <NODE_ATTRIBUTE TYPE="SHAPE" NAME="SHAPE">
+                                <ELEM SHAPETYPE="CYLINDER_4P" REVERSE_NORMAL="false" TYPE="SHAPE" NAME="4 points cylinder">
+                                    <ELEM X="0.00469727276779811" Y="0.00732987329405677" Z="-0.0102427702748138" TYPE="POINT" NAME="Point 1"/>
+                                    <ELEM X="0.00390210945041325" Y="0.00595298700103032" Z="-0.0102427702748138" TYPE="POINT" NAME="Point 2"/>
+                                    <ELEM X="0.00469694659854067" Y="0.00457591239404809" Z="-0.0102427702748138" TYPE="POINT" NAME="Point 3"/>
+                                    <ELEM X="0.00390210945041325" Y="0.00595298700103032" Z="-0.0081427703" TYPE="POINT" NAME="Point 4"/>
+                                </ELEM>
+                            </NODE_ATTRIBUTE>
+                        </DATA_NODE>
+                    </DATA_NODE>
+                    <NODE_ATTRIBUTE TYPE="PROP_APPLI" NAME="Thermica">
+                        <CONTENER TYPE="SHELL" NAME="Bulk"/>
+                        <CONTENER TYPE="VOLUME" NAME="Bulk"/>
+                        <CONTENER TYPE="SHELL" NAME="Transverse"/>
+                        <CONTENER TYPE="SHELL" NAME="Coating" INHERITED="FALSE">
+                            <ELEM TYPE="STRING" ID="ActivityId" STR="PLUSFACE"/>
+                            <ELEM TYPE="STRING" ID="FaceId" STR="NONEFACE"/>
+                            <FACE NAME="Alike sides">
+                                <LAYER NAME="Layer 1">
+                                    <PROP_CATEGORY NAME="Thermo-optical IR">
+                                        <ELEM TYPE="STRING" NAME="Selected material" STR="Aluminium 6082"/>
+                                    </PROP_CATEGORY>
+                                    <PROP_CATEGORY NAME="Thermo-optical UV">
+                                        <ELEM TYPE="STRING" NAME="Selected material" STR="Aluminium 6082"/>
+                                    </PROP_CATEGORY>
+                                </LAYER>
+                            </FACE>
+                        </CONTENER>
+                        <CONTENER TYPE="VOLUME" NAME="Coating"/>
+                        <CONTENER TYPE="SHELL" NAME="Miscellaneous"/>
+                        <CONTENER TYPE="SHELL" NAME="Enclosure"/>
+                        <CONTENER TYPE="VOLUME" NAME="Enclosure"/>
+                    </NODE_ATTRIBUTE>
+                </DATA_NODE>
+                <NODE_ATTRIBUTE TYPE="AXIS" NAME="AXIS">
+                    <ELEM AXISTYPE="TRAROT" TYPE="AXIS" NAME="Translations and rotations">
+                        <ELEM AXISTYPE="TRANSLATION" TYPE="AXIS" NAME="X, Y or Z translation">
+                            <ELEM TYPE="STRING" NAME="Translation direction" STR="TRAX"/>
+                            <ELEM L="0" TYPE="LENGTH" NAME="Distance"/>
+                        </ELEM>
+                        <ELEM AXISTYPE="TRANSLATION" TYPE="AXIS" NAME="X, Y or Z translation">
+                            <ELEM TYPE="STRING" NAME="Translation direction" STR="TRAY"/>
+                            <ELEM L="0" TYPE="LENGTH" NAME="Distance"/>
+                        </ELEM>
+                        <ELEM AXISTYPE="TRANSLATION" TYPE="AXIS" NAME="X, Y or Z translation">
+                            <ELEM TYPE="STRING" NAME="Translation direction" STR="TRAZ"/>
+                            <ELEM L="0" TYPE="LENGTH" NAME="Distance"/>
+                        </ELEM>
+                        <ELEM AXISTYPE="ROTATION" TYPE="AXIS" NAME="X, Y or Z rotation">
+                            <ELEM TYPE="STRING" NAME="Rotation axis" STR="ROTX"/>
+                            <ELEM ANGLE="0" TYPE="ANGLE" NAME="Angle"/>
+                        </ELEM>
+                        <ELEM AXISTYPE="ROTATION" TYPE="AXIS" NAME="X, Y or Z rotation">
+                            <ELEM TYPE="STRING" NAME="Rotation axis" STR="ROTY"/>
+                            <ELEM ANGLE="0" TYPE="ANGLE" NAME="Angle"/>
+                        </ELEM>
+                        <ELEM AXISTYPE="ROTATION" TYPE="AXIS" NAME="X, Y or Z rotation">
+                            <ELEM TYPE="STRING" NAME="Rotation axis" STR="ROTZ"/>
+                            <ELEM ANGLE="0" TYPE="ANGLE" NAME="Angle"/>
+                        </ELEM>
+                    </ELEM>
+                </NODE_ATTRIBUTE>
+            </DATA_NODE>
+            <NODE_ATTRIBUTE TYPE="MATREF" NAME="MATREF_Thermica">
+                <ELEM TYPE="MATREF">
+                    <ELEM TYPE="BOOLEAN" ID="EnableMaterialDatabase" NAME="Use default material database" VALUE="false"/>
+                    <ELEM FILE_PATH="C:/Users/User/Documents/EF111X/MIST/Systema/MOREBAC/Model+Mesh_V13/Material_file_V13.sysmtr" TYPE="FILE_DESCRIPTION" ID="MaterialDatabaseFile" FILE_FORMAT="sysmtr" NAME="Material database" FILE_RELATIVE_PATH="./Material_file_V13.sysmtr"/>
+                </ELEM>
+            </NODE_ATTRIBUTE>
+        </DATA_NODE>
+    </DATA_STRUCTURE>
+</SYSML>
